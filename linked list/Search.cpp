@@ -1,13 +1,3 @@
-//
-// Created by krati on 09-02-2021.
-//
-//
-// Created by krati on 09-02-2021.
-//
-
-//
-// Created by krati on 09-02-2021.
-//
 
 #include <bits/stdc++.h>
 using namespace std;
