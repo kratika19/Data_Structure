@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "G:/Semester4/dsa/linked list/CheckLoopLL.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug/CMakeFiles/linked_lists.dir/CheckLoopLL.cpp.obj"
   "G:/Semester4/dsa/linked list/CircularLL.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug/CMakeFiles/linked_lists.dir/CircularLL.cpp.obj"
+  "G:/Semester4/dsa/linked list/DeleteCIrcularLL.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug/CMakeFiles/linked_lists.dir/DeleteCIrcularLL.cpp.obj"
   "G:/Semester4/dsa/linked list/InsertCircularLL.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug/CMakeFiles/linked_lists.dir/InsertCircularLL.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

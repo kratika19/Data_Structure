@@ -196,6 +196,33 @@ CircularLL.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CircularLL.cpp.s
 .PHONY : CircularLL.cpp.s
 
+DeleteCIrcularLL.obj: DeleteCIrcularLL.cpp.obj
+
+.PHONY : DeleteCIrcularLL.obj
+
+# target to build an object file
+DeleteCIrcularLL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DeleteCIrcularLL.cpp.obj
+.PHONY : DeleteCIrcularLL.cpp.obj
+
+DeleteCIrcularLL.i: DeleteCIrcularLL.cpp.i
+
+.PHONY : DeleteCIrcularLL.i
+
+# target to preprocess a source file
+DeleteCIrcularLL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DeleteCIrcularLL.cpp.i
+.PHONY : DeleteCIrcularLL.cpp.i
+
+DeleteCIrcularLL.s: DeleteCIrcularLL.cpp.s
+
+.PHONY : DeleteCIrcularLL.s
+
+# target to generate assembly for a file
+DeleteCIrcularLL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DeleteCIrcularLL.cpp.s
+.PHONY : DeleteCIrcularLL.cpp.s
+
 InsertCircularLL.obj: InsertCircularLL.cpp.obj
 
 .PHONY : InsertCircularLL.obj
@@ -238,6 +265,9 @@ help:
 	@echo ... CircularLL.obj
 	@echo ... CircularLL.i
 	@echo ... CircularLL.s
+	@echo ... DeleteCIrcularLL.obj
+	@echo ... DeleteCIrcularLL.i
+	@echo ... DeleteCIrcularLL.s
 	@echo ... InsertCircularLL.obj
 	@echo ... InsertCircularLL.i
 	@echo ... InsertCircularLL.s

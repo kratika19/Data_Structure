@@ -88,6 +88,9 @@
 		<Unit filename="G:/Semester4/dsa/linked list/CircularLL.cpp">
 			<Option target="linked_lists"/>
 		</Unit>
+		<Unit filename="G:/Semester4/dsa/linked list/DeleteCIrcularLL.cpp">
+			<Option target="linked_lists"/>
+		</Unit>
 		<Unit filename="G:/Semester4/dsa/linked list/InsertCircularLL.cpp">
 			<Option target="linked_lists"/>
 		</Unit>
