@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-DeleteNode.obj: DeleteNode.cpp.obj
+CheckLLSorted.obj: CheckLLSorted.cpp.obj
 
-.PHONY : DeleteNode.obj
+.PHONY : CheckLLSorted.obj
 
 # target to build an object file
-DeleteNode.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DeleteNode.cpp.obj
-.PHONY : DeleteNode.cpp.obj
+CheckLLSorted.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CheckLLSorted.cpp.obj
+.PHONY : CheckLLSorted.cpp.obj
 
-DeleteNode.i: DeleteNode.cpp.i
+CheckLLSorted.i: CheckLLSorted.cpp.i
 
-.PHONY : DeleteNode.i
+.PHONY : CheckLLSorted.i
 
 # target to preprocess a source file
-DeleteNode.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DeleteNode.cpp.i
-.PHONY : DeleteNode.cpp.i
+CheckLLSorted.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CheckLLSorted.cpp.i
+.PHONY : CheckLLSorted.cpp.i
 
-DeleteNode.s: DeleteNode.cpp.s
+CheckLLSorted.s: CheckLLSorted.cpp.s
 
-.PHONY : DeleteNode.s
+.PHONY : CheckLLSorted.s
 
 # target to generate assembly for a file
-DeleteNode.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DeleteNode.cpp.s
-.PHONY : DeleteNode.cpp.s
+CheckLLSorted.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CheckLLSorted.cpp.s
+.PHONY : CheckLLSorted.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... DeleteNode.obj
-	@echo ... DeleteNode.i
-	@echo ... DeleteNode.s
+	@echo ... CheckLLSorted.obj
+	@echo ... CheckLLSorted.i
+	@echo ... CheckLLSorted.s
 .PHONY : help
 
 

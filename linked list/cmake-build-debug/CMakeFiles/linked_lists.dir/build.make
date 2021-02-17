@@ -76,27 +76,27 @@ include CMakeFiles/linked_lists.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/linked_lists.dir/flags.make
 
-CMakeFiles/linked_lists.dir/DeleteNode.cpp.obj: CMakeFiles/linked_lists.dir/flags.make
-CMakeFiles/linked_lists.dir/DeleteNode.cpp.obj: ../DeleteNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Semester4\dsa\linked list\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linked_lists.dir/DeleteNode.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\linked_lists.dir\DeleteNode.cpp.obj -c "G:\Semester4\dsa\linked list\DeleteNode.cpp"
+CMakeFiles/linked_lists.dir/CheckLLSorted.cpp.obj: CMakeFiles/linked_lists.dir/flags.make
+CMakeFiles/linked_lists.dir/CheckLLSorted.cpp.obj: ../CheckLLSorted.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Semester4\dsa\linked list\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linked_lists.dir/CheckLLSorted.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\linked_lists.dir\CheckLLSorted.cpp.obj -c "G:\Semester4\dsa\linked list\CheckLLSorted.cpp"
 
-CMakeFiles/linked_lists.dir/DeleteNode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linked_lists.dir/DeleteNode.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Semester4\dsa\linked list\DeleteNode.cpp" > CMakeFiles\linked_lists.dir\DeleteNode.cpp.i
+CMakeFiles/linked_lists.dir/CheckLLSorted.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linked_lists.dir/CheckLLSorted.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Semester4\dsa\linked list\CheckLLSorted.cpp" > CMakeFiles\linked_lists.dir\CheckLLSorted.cpp.i
 
-CMakeFiles/linked_lists.dir/DeleteNode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linked_lists.dir/DeleteNode.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Semester4\dsa\linked list\DeleteNode.cpp" -o CMakeFiles\linked_lists.dir\DeleteNode.cpp.s
+CMakeFiles/linked_lists.dir/CheckLLSorted.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linked_lists.dir/CheckLLSorted.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Semester4\dsa\linked list\CheckLLSorted.cpp" -o CMakeFiles\linked_lists.dir\CheckLLSorted.cpp.s
 
 # Object files for target linked_lists
 linked_lists_OBJECTS = \
-"CMakeFiles/linked_lists.dir/DeleteNode.cpp.obj"
+"CMakeFiles/linked_lists.dir/CheckLLSorted.cpp.obj"
 
 # External object files for target linked_lists
 linked_lists_EXTERNAL_OBJECTS =
 
-linked_lists.exe: CMakeFiles/linked_lists.dir/DeleteNode.cpp.obj
+linked_lists.exe: CMakeFiles/linked_lists.dir/CheckLLSorted.cpp.obj
 linked_lists.exe: CMakeFiles/linked_lists.dir/build.make
 linked_lists.exe: CMakeFiles/linked_lists.dir/linklibs.rsp
 linked_lists.exe: CMakeFiles/linked_lists.dir/objects1.rsp
