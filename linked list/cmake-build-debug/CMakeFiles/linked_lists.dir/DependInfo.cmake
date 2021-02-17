@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "G:/Semester4/dsa/linked list/CheckLLSorted.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug/CMakeFiles/linked_lists.dir/CheckLLSorted.cpp.obj"
+  "G:/Semester4/dsa/linked list/RemoveDuplicateLL.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug/CMakeFiles/linked_lists.dir/RemoveDuplicateLL.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

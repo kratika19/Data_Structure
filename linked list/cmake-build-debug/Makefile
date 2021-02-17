@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-CheckLLSorted.obj: CheckLLSorted.cpp.obj
+RemoveDuplicateLL.obj: RemoveDuplicateLL.cpp.obj
 
-.PHONY : CheckLLSorted.obj
+.PHONY : RemoveDuplicateLL.obj
 
 # target to build an object file
-CheckLLSorted.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CheckLLSorted.cpp.obj
-.PHONY : CheckLLSorted.cpp.obj
+RemoveDuplicateLL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/RemoveDuplicateLL.cpp.obj
+.PHONY : RemoveDuplicateLL.cpp.obj
 
-CheckLLSorted.i: CheckLLSorted.cpp.i
+RemoveDuplicateLL.i: RemoveDuplicateLL.cpp.i
 
-.PHONY : CheckLLSorted.i
+.PHONY : RemoveDuplicateLL.i
 
 # target to preprocess a source file
-CheckLLSorted.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CheckLLSorted.cpp.i
-.PHONY : CheckLLSorted.cpp.i
+RemoveDuplicateLL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/RemoveDuplicateLL.cpp.i
+.PHONY : RemoveDuplicateLL.cpp.i
 
-CheckLLSorted.s: CheckLLSorted.cpp.s
+RemoveDuplicateLL.s: RemoveDuplicateLL.cpp.s
 
-.PHONY : CheckLLSorted.s
+.PHONY : RemoveDuplicateLL.s
 
 # target to generate assembly for a file
-CheckLLSorted.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CheckLLSorted.cpp.s
-.PHONY : CheckLLSorted.cpp.s
+RemoveDuplicateLL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/RemoveDuplicateLL.cpp.s
+.PHONY : RemoveDuplicateLL.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... CheckLLSorted.obj
-	@echo ... CheckLLSorted.i
-	@echo ... CheckLLSorted.s
+	@echo ... RemoveDuplicateLL.obj
+	@echo ... RemoveDuplicateLL.i
+	@echo ... RemoveDuplicateLL.s
 .PHONY : help
 
 

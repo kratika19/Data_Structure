@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/linked_lists.dir/CheckLLSorted.cpp.obj"
+  "CMakeFiles/linked_lists.dir/RemoveDuplicateLL.cpp.obj"
   "liblinked_lists.dll.a"
   "linked_lists.exe"
   "linked_lists.exe.manifest"
