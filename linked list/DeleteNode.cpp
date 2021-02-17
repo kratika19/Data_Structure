@@ -57,7 +57,7 @@ int main() {
     display(first);
     cout << endl;
     pos = 6;
-    deleteNode(first, pos - 1); //node at position 4 will be deleted
+    deleteNode(first, pos - 1); //node at position 6 will be deleted
     display(first);
     return 0;
 
