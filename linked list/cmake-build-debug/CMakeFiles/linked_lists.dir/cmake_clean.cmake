@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/linked_lists.dir/ReverseLinks.cpp.obj"
+  "CMakeFiles/linked_lists.dir/ReverseLinksUsingRecurssion.cpp.obj"
   "liblinked_lists.dll.a"
   "linked_lists.exe"
   "linked_lists.exe.manifest"

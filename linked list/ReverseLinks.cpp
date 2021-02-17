@@ -18,7 +18,7 @@ void insertLast(int x) {
         last = t;
     }
 }
-
+//reverse using reversing links using slider pointers
 void reverseLL(struct Node *p) {
     struct Node *q, *r ;
     q = NULL;
