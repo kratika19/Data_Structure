@@ -196,6 +196,33 @@ CircularLL.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CircularLL.cpp.s
 .PHONY : CircularLL.cpp.s
 
+InsertCircularLL.obj: InsertCircularLL.cpp.obj
+
+.PHONY : InsertCircularLL.obj
+
+# target to build an object file
+InsertCircularLL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/InsertCircularLL.cpp.obj
+.PHONY : InsertCircularLL.cpp.obj
+
+InsertCircularLL.i: InsertCircularLL.cpp.i
+
+.PHONY : InsertCircularLL.i
+
+# target to preprocess a source file
+InsertCircularLL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/InsertCircularLL.cpp.i
+.PHONY : InsertCircularLL.cpp.i
+
+InsertCircularLL.s: InsertCircularLL.cpp.s
+
+.PHONY : InsertCircularLL.s
+
+# target to generate assembly for a file
+InsertCircularLL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/InsertCircularLL.cpp.s
+.PHONY : InsertCircularLL.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -211,6 +238,9 @@ help:
 	@echo ... CircularLL.obj
 	@echo ... CircularLL.i
 	@echo ... CircularLL.s
+	@echo ... InsertCircularLL.obj
+	@echo ... InsertCircularLL.i
+	@echo ... InsertCircularLL.s
 .PHONY : help
 
 
