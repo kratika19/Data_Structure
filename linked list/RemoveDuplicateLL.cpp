@@ -36,22 +36,6 @@ bool checkSorted(struct Node *p)
     return check;
 }
 
-
-void deleteNode(struct Node *p, int pos) {
-    struct Node *t = first->next;
-    if (pos == 0) {
-        first = first->next;
-        delete p;
-    } else {
-        for (int i = 0; i < pos - 1; i++) {
-            t = t->next;
-            p = p->next;
-        }
-        p->next = t->next;
-        delete t;
-    }
-}
-
 void removeDuplicates(struct Node *p)
 {
     int pos = 0;
@@ -61,9 +45,9 @@ void removeDuplicates(struct Node *p)
         pos++;
         if(t->data == p->data)
         {
-            deleteNode(first , pos-1);
             p->next = t->next;
-            t = t->next;
+            delete t;
+            t = p->next;
         }
         else
         {
@@ -93,7 +77,7 @@ int main() {
 
     if(isSorted) {
         cout << endl << "Linked List is sorted" << endl;
-        removeDuplicates(first);
+        removeDuplicates(first); // remove duplicates if list is sorted
         display(first);
     }
     else
