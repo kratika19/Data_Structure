@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-ReverseItems.obj: ReverseItems.cpp.obj
+ReverseLinks.obj: ReverseLinks.cpp.obj
 
-.PHONY : ReverseItems.obj
+.PHONY : ReverseLinks.obj
 
 # target to build an object file
-ReverseItems.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ReverseItems.cpp.obj
-.PHONY : ReverseItems.cpp.obj
+ReverseLinks.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ReverseLinks.cpp.obj
+.PHONY : ReverseLinks.cpp.obj
 
-ReverseItems.i: ReverseItems.cpp.i
+ReverseLinks.i: ReverseLinks.cpp.i
 
-.PHONY : ReverseItems.i
+.PHONY : ReverseLinks.i
 
 # target to preprocess a source file
-ReverseItems.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ReverseItems.cpp.i
-.PHONY : ReverseItems.cpp.i
+ReverseLinks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ReverseLinks.cpp.i
+.PHONY : ReverseLinks.cpp.i
 
-ReverseItems.s: ReverseItems.cpp.s
+ReverseLinks.s: ReverseLinks.cpp.s
 
-.PHONY : ReverseItems.s
+.PHONY : ReverseLinks.s
 
 # target to generate assembly for a file
-ReverseItems.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ReverseItems.cpp.s
-.PHONY : ReverseItems.cpp.s
+ReverseLinks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ReverseLinks.cpp.s
+.PHONY : ReverseLinks.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... ReverseItems.obj
-	@echo ... ReverseItems.i
-	@echo ... ReverseItems.s
+	@echo ... ReverseLinks.obj
+	@echo ... ReverseLinks.i
+	@echo ... ReverseLinks.s
 .PHONY : help
 
 
