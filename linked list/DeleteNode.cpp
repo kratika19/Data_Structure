@@ -18,26 +18,19 @@ void insertLast(int x) {
         last = t;
     }
 }
-void deleteNode(struct Node *p , int pos)
-{
+
+void deleteNode(struct Node *p, int pos) {
     struct Node *t = first->next;
-    if(pos == 0)
-    {
-        first = first -> next;
+    if (pos == 0) {
+        first = first->next;
         delete p;
-    }
-    else{
-        while(p!=NULL)
-        {
-            for(int i=0;i<pos-1;i++)
-            {
-                t = t->next;
-                p = p->next;
-            }
-            p->next = t->next;
-            delete t;
-            break;
+    } else {
+        for (int i = 0; i < pos - 1; i++) {
+            t = t->next;
+            p = p->next;
         }
+        p->next = t->next;
+        delete t;
     }
 }
 
@@ -49,23 +42,22 @@ void display(struct Node *p) {
 }
 
 int main() {
-    int A[] = {8,9,6,5,4,2,1,0};
-    for(int i=0;i<8;i++)
-    {
+    int A[] = {8, 9, 6, 5, 4, 2, 1, 0};
+    for (int i = 0; i < 8; i++) {
         insertLast(A[i]);
     }
     display(first);
-    cout<<endl;
+    cout << endl;
     int pos = 1;
-    deleteNode(first,pos -1); //node at position 1 will be deleted
+    deleteNode(first, pos - 1); //node at position 1 will be deleted
     display(first);
-    cout<<endl;
+    cout << endl;
     pos = 4;
-    deleteNode(first,pos-1); //node at position 4 will be deleted
+    deleteNode(first, pos - 1); //node at position 4 will be deleted
     display(first);
-    cout<<endl;
+    cout << endl;
     pos = 6;
-    deleteNode(first,pos-1); //node at position 4 will be deleted
+    deleteNode(first, pos - 1); //node at position 4 will be deleted
     display(first);
     return 0;
 
