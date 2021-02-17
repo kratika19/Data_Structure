@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-ReverseLinks.obj: ReverseLinks.cpp.obj
+ConcatingTwoLL.obj: ConcatingTwoLL.cpp.obj
 
-.PHONY : ReverseLinks.obj
+.PHONY : ConcatingTwoLL.obj
 
 # target to build an object file
-ReverseLinks.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ReverseLinks.cpp.obj
-.PHONY : ReverseLinks.cpp.obj
+ConcatingTwoLL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ConcatingTwoLL.cpp.obj
+.PHONY : ConcatingTwoLL.cpp.obj
 
-ReverseLinks.i: ReverseLinks.cpp.i
+ConcatingTwoLL.i: ConcatingTwoLL.cpp.i
 
-.PHONY : ReverseLinks.i
+.PHONY : ConcatingTwoLL.i
 
 # target to preprocess a source file
-ReverseLinks.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ReverseLinks.cpp.i
-.PHONY : ReverseLinks.cpp.i
+ConcatingTwoLL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ConcatingTwoLL.cpp.i
+.PHONY : ConcatingTwoLL.cpp.i
 
-ReverseLinks.s: ReverseLinks.cpp.s
+ConcatingTwoLL.s: ConcatingTwoLL.cpp.s
 
-.PHONY : ReverseLinks.s
+.PHONY : ConcatingTwoLL.s
 
 # target to generate assembly for a file
-ReverseLinks.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ReverseLinks.cpp.s
-.PHONY : ReverseLinks.cpp.s
+ConcatingTwoLL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ConcatingTwoLL.cpp.s
+.PHONY : ConcatingTwoLL.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... ReverseLinks.obj
-	@echo ... ReverseLinks.i
-	@echo ... ReverseLinks.s
+	@echo ... ConcatingTwoLL.obj
+	@echo ... ConcatingTwoLL.i
+	@echo ... ConcatingTwoLL.s
 .PHONY : help
 
 
