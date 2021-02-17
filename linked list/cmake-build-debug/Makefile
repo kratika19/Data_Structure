@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-ConcatingTwoLL.obj: ConcatingTwoLL.cpp.obj
+MergeTwoLL.obj: MergeTwoLL.cpp.obj
 
-.PHONY : ConcatingTwoLL.obj
+.PHONY : MergeTwoLL.obj
 
 # target to build an object file
-ConcatingTwoLL.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ConcatingTwoLL.cpp.obj
-.PHONY : ConcatingTwoLL.cpp.obj
+MergeTwoLL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/MergeTwoLL.cpp.obj
+.PHONY : MergeTwoLL.cpp.obj
 
-ConcatingTwoLL.i: ConcatingTwoLL.cpp.i
+MergeTwoLL.i: MergeTwoLL.cpp.i
 
-.PHONY : ConcatingTwoLL.i
+.PHONY : MergeTwoLL.i
 
 # target to preprocess a source file
-ConcatingTwoLL.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ConcatingTwoLL.cpp.i
-.PHONY : ConcatingTwoLL.cpp.i
+MergeTwoLL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/MergeTwoLL.cpp.i
+.PHONY : MergeTwoLL.cpp.i
 
-ConcatingTwoLL.s: ConcatingTwoLL.cpp.s
+MergeTwoLL.s: MergeTwoLL.cpp.s
 
-.PHONY : ConcatingTwoLL.s
+.PHONY : MergeTwoLL.s
 
 # target to generate assembly for a file
-ConcatingTwoLL.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ConcatingTwoLL.cpp.s
-.PHONY : ConcatingTwoLL.cpp.s
+MergeTwoLL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/MergeTwoLL.cpp.s
+.PHONY : MergeTwoLL.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... ConcatingTwoLL.obj
-	@echo ... ConcatingTwoLL.i
-	@echo ... ConcatingTwoLL.s
+	@echo ... MergeTwoLL.obj
+	@echo ... MergeTwoLL.i
+	@echo ... MergeTwoLL.s
 .PHONY : help
 
 
