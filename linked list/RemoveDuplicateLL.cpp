@@ -66,7 +66,7 @@ void display(struct Node *p) {
 }
 
 int main() {
-    int A[] = {1,2,2,4,4,5,6};
+    int A[] = {1,2,2,4,4,4,6};
     for(int i=0;i<7;i++)
     {
         insertLast(A[i]);
