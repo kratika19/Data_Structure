@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-insert.obj: insert.cpp.obj
+createUsingInsert.obj: createUsingInsert.cpp.obj
 
-.PHONY : insert.obj
+.PHONY : createUsingInsert.obj
 
 # target to build an object file
-insert.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/insert.cpp.obj
-.PHONY : insert.cpp.obj
+createUsingInsert.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/createUsingInsert.cpp.obj
+.PHONY : createUsingInsert.cpp.obj
 
-insert.i: insert.cpp.i
+createUsingInsert.i: createUsingInsert.cpp.i
 
-.PHONY : insert.i
+.PHONY : createUsingInsert.i
 
 # target to preprocess a source file
-insert.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/insert.cpp.i
-.PHONY : insert.cpp.i
+createUsingInsert.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/createUsingInsert.cpp.i
+.PHONY : createUsingInsert.cpp.i
 
-insert.s: insert.cpp.s
+createUsingInsert.s: createUsingInsert.cpp.s
 
-.PHONY : insert.s
+.PHONY : createUsingInsert.s
 
 # target to generate assembly for a file
-insert.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/insert.cpp.s
-.PHONY : insert.cpp.s
+createUsingInsert.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/createUsingInsert.cpp.s
+.PHONY : createUsingInsert.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... insert.obj
-	@echo ... insert.i
-	@echo ... insert.s
+	@echo ... createUsingInsert.obj
+	@echo ... createUsingInsert.i
+	@echo ... createUsingInsert.s
 .PHONY : help
 
 
