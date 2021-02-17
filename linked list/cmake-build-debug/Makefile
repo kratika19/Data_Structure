@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-ReverseLinksUsingRecurssion.obj: ReverseLinksUsingRecurssion.cpp.obj
+ReverseLinks.obj: ReverseLinks.cpp.obj
 
-.PHONY : ReverseLinksUsingRecurssion.obj
+.PHONY : ReverseLinks.obj
 
 # target to build an object file
-ReverseLinksUsingRecurssion.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ReverseLinksUsingRecurssion.cpp.obj
-.PHONY : ReverseLinksUsingRecurssion.cpp.obj
+ReverseLinks.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ReverseLinks.cpp.obj
+.PHONY : ReverseLinks.cpp.obj
 
-ReverseLinksUsingRecurssion.i: ReverseLinksUsingRecurssion.cpp.i
+ReverseLinks.i: ReverseLinks.cpp.i
 
-.PHONY : ReverseLinksUsingRecurssion.i
+.PHONY : ReverseLinks.i
 
 # target to preprocess a source file
-ReverseLinksUsingRecurssion.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ReverseLinksUsingRecurssion.cpp.i
-.PHONY : ReverseLinksUsingRecurssion.cpp.i
+ReverseLinks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ReverseLinks.cpp.i
+.PHONY : ReverseLinks.cpp.i
 
-ReverseLinksUsingRecurssion.s: ReverseLinksUsingRecurssion.cpp.s
+ReverseLinks.s: ReverseLinks.cpp.s
 
-.PHONY : ReverseLinksUsingRecurssion.s
+.PHONY : ReverseLinks.s
 
 # target to generate assembly for a file
-ReverseLinksUsingRecurssion.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ReverseLinksUsingRecurssion.cpp.s
-.PHONY : ReverseLinksUsingRecurssion.cpp.s
+ReverseLinks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ReverseLinks.cpp.s
+.PHONY : ReverseLinks.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... ReverseLinksUsingRecurssion.obj
-	@echo ... ReverseLinksUsingRecurssion.i
-	@echo ... ReverseLinksUsingRecurssion.s
+	@echo ... ReverseLinks.obj
+	@echo ... ReverseLinks.i
+	@echo ... ReverseLinks.s
 .PHONY : help
 
 
