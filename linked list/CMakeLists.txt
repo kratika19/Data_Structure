@@ -3,4 +3,4 @@ project(linked_lists)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(linked_lists MergeTwoLL.cpp)
+add_executable(linked_lists CheckLoopLL.cpp)

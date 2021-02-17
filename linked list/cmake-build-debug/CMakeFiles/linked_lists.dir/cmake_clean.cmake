@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/linked_lists.dir/MergeTwoLL.cpp.obj"
+  "CMakeFiles/linked_lists.dir/CheckLoopLL.cpp.obj"
   "liblinked_lists.dll.a"
   "linked_lists.exe"
   "linked_lists.exe.manifest"

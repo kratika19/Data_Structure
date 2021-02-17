@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-MergeTwoLL.obj: MergeTwoLL.cpp.obj
+CheckLoopLL.obj: CheckLoopLL.cpp.obj
 
-.PHONY : MergeTwoLL.obj
+.PHONY : CheckLoopLL.obj
 
 # target to build an object file
-MergeTwoLL.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/MergeTwoLL.cpp.obj
-.PHONY : MergeTwoLL.cpp.obj
+CheckLoopLL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CheckLoopLL.cpp.obj
+.PHONY : CheckLoopLL.cpp.obj
 
-MergeTwoLL.i: MergeTwoLL.cpp.i
+CheckLoopLL.i: CheckLoopLL.cpp.i
 
-.PHONY : MergeTwoLL.i
+.PHONY : CheckLoopLL.i
 
 # target to preprocess a source file
-MergeTwoLL.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/MergeTwoLL.cpp.i
-.PHONY : MergeTwoLL.cpp.i
+CheckLoopLL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CheckLoopLL.cpp.i
+.PHONY : CheckLoopLL.cpp.i
 
-MergeTwoLL.s: MergeTwoLL.cpp.s
+CheckLoopLL.s: CheckLoopLL.cpp.s
 
-.PHONY : MergeTwoLL.s
+.PHONY : CheckLoopLL.s
 
 # target to generate assembly for a file
-MergeTwoLL.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/MergeTwoLL.cpp.s
-.PHONY : MergeTwoLL.cpp.s
+CheckLoopLL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CheckLoopLL.cpp.s
+.PHONY : CheckLoopLL.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... MergeTwoLL.obj
-	@echo ... MergeTwoLL.i
-	@echo ... MergeTwoLL.s
+	@echo ... CheckLoopLL.obj
+	@echo ... CheckLoopLL.i
+	@echo ... CheckLoopLL.s
 .PHONY : help
 
 
