@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-RemoveDuplicateLL.obj: RemoveDuplicateLL.cpp.obj
+ReverseItems.obj: ReverseItems.cpp.obj
 
-.PHONY : RemoveDuplicateLL.obj
+.PHONY : ReverseItems.obj
 
 # target to build an object file
-RemoveDuplicateLL.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/RemoveDuplicateLL.cpp.obj
-.PHONY : RemoveDuplicateLL.cpp.obj
+ReverseItems.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ReverseItems.cpp.obj
+.PHONY : ReverseItems.cpp.obj
 
-RemoveDuplicateLL.i: RemoveDuplicateLL.cpp.i
+ReverseItems.i: ReverseItems.cpp.i
 
-.PHONY : RemoveDuplicateLL.i
+.PHONY : ReverseItems.i
 
 # target to preprocess a source file
-RemoveDuplicateLL.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/RemoveDuplicateLL.cpp.i
-.PHONY : RemoveDuplicateLL.cpp.i
+ReverseItems.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ReverseItems.cpp.i
+.PHONY : ReverseItems.cpp.i
 
-RemoveDuplicateLL.s: RemoveDuplicateLL.cpp.s
+ReverseItems.s: ReverseItems.cpp.s
 
-.PHONY : RemoveDuplicateLL.s
+.PHONY : ReverseItems.s
 
 # target to generate assembly for a file
-RemoveDuplicateLL.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/RemoveDuplicateLL.cpp.s
-.PHONY : RemoveDuplicateLL.cpp.s
+ReverseItems.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/ReverseItems.cpp.s
+.PHONY : ReverseItems.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... RemoveDuplicateLL.obj
-	@echo ... RemoveDuplicateLL.i
-	@echo ... RemoveDuplicateLL.s
+	@echo ... ReverseItems.obj
+	@echo ... ReverseItems.i
+	@echo ... ReverseItems.s
 .PHONY : help
 
 

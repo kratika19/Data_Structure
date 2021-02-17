@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="G:/Semester4/dsa/linked list/RemoveDuplicateLL.cpp">
+		<Unit filename="G:/Semester4/dsa/linked list/ReverseItems.cpp">
 			<Option target="linked_lists"/>
 		</Unit>
 		<Unit filename="G:/Semester4/dsa/linked list/CMakeLists.txt">
