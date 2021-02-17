@@ -76,27 +76,27 @@ include CMakeFiles/linked_lists.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/linked_lists.dir/flags.make
 
-CMakeFiles/linked_lists.dir/createUsingInsert.cpp.obj: CMakeFiles/linked_lists.dir/flags.make
-CMakeFiles/linked_lists.dir/createUsingInsert.cpp.obj: ../createUsingInsert.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Semester4\dsa\linked list\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linked_lists.dir/createUsingInsert.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\linked_lists.dir\createUsingInsert.cpp.obj -c "G:\Semester4\dsa\linked list\createUsingInsert.cpp"
+CMakeFiles/linked_lists.dir/insertInSortedLL.cpp.obj: CMakeFiles/linked_lists.dir/flags.make
+CMakeFiles/linked_lists.dir/insertInSortedLL.cpp.obj: ../insertInSortedLL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Semester4\dsa\linked list\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linked_lists.dir/insertInSortedLL.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\linked_lists.dir\insertInSortedLL.cpp.obj -c "G:\Semester4\dsa\linked list\insertInSortedLL.cpp"
 
-CMakeFiles/linked_lists.dir/createUsingInsert.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linked_lists.dir/createUsingInsert.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Semester4\dsa\linked list\createUsingInsert.cpp" > CMakeFiles\linked_lists.dir\createUsingInsert.cpp.i
+CMakeFiles/linked_lists.dir/insertInSortedLL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linked_lists.dir/insertInSortedLL.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Semester4\dsa\linked list\insertInSortedLL.cpp" > CMakeFiles\linked_lists.dir\insertInSortedLL.cpp.i
 
-CMakeFiles/linked_lists.dir/createUsingInsert.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linked_lists.dir/createUsingInsert.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Semester4\dsa\linked list\createUsingInsert.cpp" -o CMakeFiles\linked_lists.dir\createUsingInsert.cpp.s
+CMakeFiles/linked_lists.dir/insertInSortedLL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linked_lists.dir/insertInSortedLL.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Semester4\dsa\linked list\insertInSortedLL.cpp" -o CMakeFiles\linked_lists.dir\insertInSortedLL.cpp.s
 
 # Object files for target linked_lists
 linked_lists_OBJECTS = \
-"CMakeFiles/linked_lists.dir/createUsingInsert.cpp.obj"
+"CMakeFiles/linked_lists.dir/insertInSortedLL.cpp.obj"
 
 # External object files for target linked_lists
 linked_lists_EXTERNAL_OBJECTS =
 
-linked_lists.exe: CMakeFiles/linked_lists.dir/createUsingInsert.cpp.obj
+linked_lists.exe: CMakeFiles/linked_lists.dir/insertInSortedLL.cpp.obj
 linked_lists.exe: CMakeFiles/linked_lists.dir/build.make
 linked_lists.exe: CMakeFiles/linked_lists.dir/linklibs.rsp
 linked_lists.exe: CMakeFiles/linked_lists.dir/objects1.rsp

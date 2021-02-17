@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-createUsingInsert.obj: createUsingInsert.cpp.obj
+insertInSortedLL.obj: insertInSortedLL.cpp.obj
 
-.PHONY : createUsingInsert.obj
+.PHONY : insertInSortedLL.obj
 
 # target to build an object file
-createUsingInsert.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/createUsingInsert.cpp.obj
-.PHONY : createUsingInsert.cpp.obj
+insertInSortedLL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/insertInSortedLL.cpp.obj
+.PHONY : insertInSortedLL.cpp.obj
 
-createUsingInsert.i: createUsingInsert.cpp.i
+insertInSortedLL.i: insertInSortedLL.cpp.i
 
-.PHONY : createUsingInsert.i
+.PHONY : insertInSortedLL.i
 
 # target to preprocess a source file
-createUsingInsert.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/createUsingInsert.cpp.i
-.PHONY : createUsingInsert.cpp.i
+insertInSortedLL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/insertInSortedLL.cpp.i
+.PHONY : insertInSortedLL.cpp.i
 
-createUsingInsert.s: createUsingInsert.cpp.s
+insertInSortedLL.s: insertInSortedLL.cpp.s
 
-.PHONY : createUsingInsert.s
+.PHONY : insertInSortedLL.s
 
 # target to generate assembly for a file
-createUsingInsert.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/createUsingInsert.cpp.s
-.PHONY : createUsingInsert.cpp.s
+insertInSortedLL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/insertInSortedLL.cpp.s
+.PHONY : insertInSortedLL.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... createUsingInsert.obj
-	@echo ... createUsingInsert.i
-	@echo ... createUsingInsert.s
+	@echo ... insertInSortedLL.obj
+	@echo ... insertInSortedLL.i
+	@echo ... insertInSortedLL.s
 .PHONY : help
 
 
