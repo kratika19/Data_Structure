@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-insertInSortedLL.obj: insertInSortedLL.cpp.obj
+DeleteNode.obj: DeleteNode.cpp.obj
 
-.PHONY : insertInSortedLL.obj
+.PHONY : DeleteNode.obj
 
 # target to build an object file
-insertInSortedLL.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/insertInSortedLL.cpp.obj
-.PHONY : insertInSortedLL.cpp.obj
+DeleteNode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DeleteNode.cpp.obj
+.PHONY : DeleteNode.cpp.obj
 
-insertInSortedLL.i: insertInSortedLL.cpp.i
+DeleteNode.i: DeleteNode.cpp.i
 
-.PHONY : insertInSortedLL.i
+.PHONY : DeleteNode.i
 
 # target to preprocess a source file
-insertInSortedLL.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/insertInSortedLL.cpp.i
-.PHONY : insertInSortedLL.cpp.i
+DeleteNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DeleteNode.cpp.i
+.PHONY : DeleteNode.cpp.i
 
-insertInSortedLL.s: insertInSortedLL.cpp.s
+DeleteNode.s: DeleteNode.cpp.s
 
-.PHONY : insertInSortedLL.s
+.PHONY : DeleteNode.s
 
 # target to generate assembly for a file
-insertInSortedLL.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/insertInSortedLL.cpp.s
-.PHONY : insertInSortedLL.cpp.s
+DeleteNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DeleteNode.cpp.s
+.PHONY : DeleteNode.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... insertInSortedLL.obj
-	@echo ... insertInSortedLL.i
-	@echo ... insertInSortedLL.s
+	@echo ... DeleteNode.obj
+	@echo ... DeleteNode.i
+	@echo ... DeleteNode.s
 .PHONY : help
 
 
