@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-practice.obj: practice.cpp.obj
+insert.obj: insert.cpp.obj
 
-.PHONY : practice.obj
+.PHONY : insert.obj
 
 # target to build an object file
-practice.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/practice.cpp.obj
-.PHONY : practice.cpp.obj
+insert.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/insert.cpp.obj
+.PHONY : insert.cpp.obj
 
-practice.i: practice.cpp.i
+insert.i: insert.cpp.i
 
-.PHONY : practice.i
+.PHONY : insert.i
 
 # target to preprocess a source file
-practice.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/practice.cpp.i
-.PHONY : practice.cpp.i
+insert.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/insert.cpp.i
+.PHONY : insert.cpp.i
 
-practice.s: practice.cpp.s
+insert.s: insert.cpp.s
 
-.PHONY : practice.s
+.PHONY : insert.s
 
 # target to generate assembly for a file
-practice.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/practice.cpp.s
-.PHONY : practice.cpp.s
+insert.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/insert.cpp.s
+.PHONY : insert.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... practice.obj
-	@echo ... practice.i
-	@echo ... practice.s
+	@echo ... insert.obj
+	@echo ... insert.i
+	@echo ... insert.s
 .PHONY : help
 
 
