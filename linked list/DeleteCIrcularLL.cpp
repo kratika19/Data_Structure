@@ -23,6 +23,31 @@ void createCLL(int A[], int n) {
     }
 }
 
+void deleteNode(int pos, int n) {
+    struct Node *t, *p;
+    p = head;
+    t = head->next;
+    if (pos == 0) {
+        while (p->next != head)
+            p = p->next;
+        p->next = t;
+        delete head;
+        head = t;
+    } else {
+
+        if (pos > 0 && pos < n) {
+            for (int i = 0; i < pos - 1; i++) {
+                p = p->next;
+                t = t->next;
+            }
+            p->next = t->next;
+            delete t;
+        } else {
+            cout << "Invalid index given for deletion" << endl;
+        }
+    }
+}
+
 void display(struct Node *p) {
     int flag = 0;
     while (flag != 1 || p != head) {
@@ -33,34 +58,16 @@ void display(struct Node *p) {
 }
 
 
-bool isLoop(struct Node *f) {
-    bool check = false;
-    struct Node *p, *q;
-    p = q = f;
-    do {
-        p = p->next;
-        q = q->next;
-        if (q != NULL)
-            q = q->next;
-        if (p == q) {
-            check = true;
-            break;
-        }
-    } while (p != NULL && q != NULL);
-    return check;
-}
-
-
 int main() {
     int A[] = {1, 2, 3, 4};
     createCLL(A, 4);
     display(head);
     cout << endl;
-    bool check = isLoop(head);
-    if (check)
-        cout << "Loop is present in the Linked List" << endl;
-    else
-        cout << "Loop is absent in the linked list" << endl;
+    int pos = 1;//position of deletion
+    int n = 4; //size of array
+    deleteNode(pos - 1, n);
+    cout << endl;
+    display(head);
     cout << endl;
     return 0;
 }

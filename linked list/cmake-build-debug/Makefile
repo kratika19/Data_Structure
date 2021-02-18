@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-InsertCircularLL.obj: InsertCircularLL.cpp.obj
+DeleteCIrcularLL.obj: DeleteCIrcularLL.cpp.obj
 
-.PHONY : InsertCircularLL.obj
+.PHONY : DeleteCIrcularLL.obj
 
 # target to build an object file
-InsertCircularLL.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/InsertCircularLL.cpp.obj
-.PHONY : InsertCircularLL.cpp.obj
+DeleteCIrcularLL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DeleteCIrcularLL.cpp.obj
+.PHONY : DeleteCIrcularLL.cpp.obj
 
-InsertCircularLL.i: InsertCircularLL.cpp.i
+DeleteCIrcularLL.i: DeleteCIrcularLL.cpp.i
 
-.PHONY : InsertCircularLL.i
+.PHONY : DeleteCIrcularLL.i
 
 # target to preprocess a source file
-InsertCircularLL.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/InsertCircularLL.cpp.i
-.PHONY : InsertCircularLL.cpp.i
+DeleteCIrcularLL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DeleteCIrcularLL.cpp.i
+.PHONY : DeleteCIrcularLL.cpp.i
 
-InsertCircularLL.s: InsertCircularLL.cpp.s
+DeleteCIrcularLL.s: DeleteCIrcularLL.cpp.s
 
-.PHONY : InsertCircularLL.s
+.PHONY : DeleteCIrcularLL.s
 
 # target to generate assembly for a file
-InsertCircularLL.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/InsertCircularLL.cpp.s
-.PHONY : InsertCircularLL.cpp.s
+DeleteCIrcularLL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DeleteCIrcularLL.cpp.s
+.PHONY : DeleteCIrcularLL.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... InsertCircularLL.obj
-	@echo ... InsertCircularLL.i
-	@echo ... InsertCircularLL.s
+	@echo ... DeleteCIrcularLL.obj
+	@echo ... DeleteCIrcularLL.i
+	@echo ... DeleteCIrcularLL.s
 .PHONY : help
 
 

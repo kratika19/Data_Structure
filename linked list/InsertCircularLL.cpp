@@ -23,7 +23,7 @@ void createCLL(int A[], int n) {
     }
 }
 
-void insert(int pos, int x, int n) {
+void deleteNode(int pos, int x, int n) {
     struct Node *t, *p;
     t = new Node;
     t->next = nullptr;
