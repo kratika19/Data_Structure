@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-CircularLL.obj: CircularLL.cpp.obj
+InsertCircularLL.obj: InsertCircularLL.cpp.obj
 
-.PHONY : CircularLL.obj
+.PHONY : InsertCircularLL.obj
 
 # target to build an object file
-CircularLL.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CircularLL.cpp.obj
-.PHONY : CircularLL.cpp.obj
+InsertCircularLL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/InsertCircularLL.cpp.obj
+.PHONY : InsertCircularLL.cpp.obj
 
-CircularLL.i: CircularLL.cpp.i
+InsertCircularLL.i: InsertCircularLL.cpp.i
 
-.PHONY : CircularLL.i
+.PHONY : InsertCircularLL.i
 
 # target to preprocess a source file
-CircularLL.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CircularLL.cpp.i
-.PHONY : CircularLL.cpp.i
+InsertCircularLL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/InsertCircularLL.cpp.i
+.PHONY : InsertCircularLL.cpp.i
 
-CircularLL.s: CircularLL.cpp.s
+InsertCircularLL.s: InsertCircularLL.cpp.s
 
-.PHONY : CircularLL.s
+.PHONY : InsertCircularLL.s
 
 # target to generate assembly for a file
-CircularLL.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CircularLL.cpp.s
-.PHONY : CircularLL.cpp.s
+InsertCircularLL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/InsertCircularLL.cpp.s
+.PHONY : InsertCircularLL.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... CircularLL.obj
-	@echo ... CircularLL.i
-	@echo ... CircularLL.s
+	@echo ... InsertCircularLL.obj
+	@echo ... InsertCircularLL.i
+	@echo ... InsertCircularLL.s
 .PHONY : help
 
 
