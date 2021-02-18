@@ -169,87 +169,6 @@ CheckLoopLL.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CheckLoopLL.cpp.s
 .PHONY : CheckLoopLL.cpp.s
 
-CircularLL.obj: CircularLL.cpp.obj
-
-.PHONY : CircularLL.obj
-
-# target to build an object file
-CircularLL.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CircularLL.cpp.obj
-.PHONY : CircularLL.cpp.obj
-
-CircularLL.i: CircularLL.cpp.i
-
-.PHONY : CircularLL.i
-
-# target to preprocess a source file
-CircularLL.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CircularLL.cpp.i
-.PHONY : CircularLL.cpp.i
-
-CircularLL.s: CircularLL.cpp.s
-
-.PHONY : CircularLL.s
-
-# target to generate assembly for a file
-CircularLL.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CircularLL.cpp.s
-.PHONY : CircularLL.cpp.s
-
-DeleteCIrcularLL.obj: DeleteCIrcularLL.cpp.obj
-
-.PHONY : DeleteCIrcularLL.obj
-
-# target to build an object file
-DeleteCIrcularLL.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DeleteCIrcularLL.cpp.obj
-.PHONY : DeleteCIrcularLL.cpp.obj
-
-DeleteCIrcularLL.i: DeleteCIrcularLL.cpp.i
-
-.PHONY : DeleteCIrcularLL.i
-
-# target to preprocess a source file
-DeleteCIrcularLL.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DeleteCIrcularLL.cpp.i
-.PHONY : DeleteCIrcularLL.cpp.i
-
-DeleteCIrcularLL.s: DeleteCIrcularLL.cpp.s
-
-.PHONY : DeleteCIrcularLL.s
-
-# target to generate assembly for a file
-DeleteCIrcularLL.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DeleteCIrcularLL.cpp.s
-.PHONY : DeleteCIrcularLL.cpp.s
-
-InsertCircularLL.obj: InsertCircularLL.cpp.obj
-
-.PHONY : InsertCircularLL.obj
-
-# target to build an object file
-InsertCircularLL.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/InsertCircularLL.cpp.obj
-.PHONY : InsertCircularLL.cpp.obj
-
-InsertCircularLL.i: InsertCircularLL.cpp.i
-
-.PHONY : InsertCircularLL.i
-
-# target to preprocess a source file
-InsertCircularLL.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/InsertCircularLL.cpp.i
-.PHONY : InsertCircularLL.cpp.i
-
-InsertCircularLL.s: InsertCircularLL.cpp.s
-
-.PHONY : InsertCircularLL.s
-
-# target to generate assembly for a file
-InsertCircularLL.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/InsertCircularLL.cpp.s
-.PHONY : InsertCircularLL.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -262,15 +181,6 @@ help:
 	@echo ... CheckLoopLL.obj
 	@echo ... CheckLoopLL.i
 	@echo ... CheckLoopLL.s
-	@echo ... CircularLL.obj
-	@echo ... CircularLL.i
-	@echo ... CircularLL.s
-	@echo ... DeleteCIrcularLL.obj
-	@echo ... DeleteCIrcularLL.i
-	@echo ... DeleteCIrcularLL.s
-	@echo ... InsertCircularLL.obj
-	@echo ... InsertCircularLL.i
-	@echo ... InsertCircularLL.s
 .PHONY : help
 
 
