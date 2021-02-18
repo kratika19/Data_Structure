@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-CheckLoopLL.obj: CheckLoopLL.cpp.obj
+CircularLL.obj: CircularLL.cpp.obj
 
-.PHONY : CheckLoopLL.obj
+.PHONY : CircularLL.obj
 
 # target to build an object file
-CheckLoopLL.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CheckLoopLL.cpp.obj
-.PHONY : CheckLoopLL.cpp.obj
+CircularLL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CircularLL.cpp.obj
+.PHONY : CircularLL.cpp.obj
 
-CheckLoopLL.i: CheckLoopLL.cpp.i
+CircularLL.i: CircularLL.cpp.i
 
-.PHONY : CheckLoopLL.i
+.PHONY : CircularLL.i
 
 # target to preprocess a source file
-CheckLoopLL.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CheckLoopLL.cpp.i
-.PHONY : CheckLoopLL.cpp.i
+CircularLL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CircularLL.cpp.i
+.PHONY : CircularLL.cpp.i
 
-CheckLoopLL.s: CheckLoopLL.cpp.s
+CircularLL.s: CircularLL.cpp.s
 
-.PHONY : CheckLoopLL.s
+.PHONY : CircularLL.s
 
 # target to generate assembly for a file
-CheckLoopLL.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CheckLoopLL.cpp.s
-.PHONY : CheckLoopLL.cpp.s
+CircularLL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/CircularLL.cpp.s
+.PHONY : CircularLL.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... CheckLoopLL.obj
-	@echo ... CheckLoopLL.i
-	@echo ... CheckLoopLL.s
+	@echo ... CircularLL.obj
+	@echo ... CircularLL.i
+	@echo ... CircularLL.s
 .PHONY : help
 
 
