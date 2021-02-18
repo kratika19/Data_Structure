@@ -30,11 +30,17 @@ void insert(int pos, int x) {
     t->data = x;
     p = head;
     if (pos == 0) {
-        while (p->next != head)
-            p = p->next;
-        t->next = head;
-        p->next = t;
-        head = t;
+        if(head == NULL){
+            head = t;
+            head->next = head;
+        }
+        else{
+            while (p->next != head)
+                p = p->next;
+            t->next = head;
+            p->next = t;
+            head = t;
+        }
     } else {
         for (int i = 0; i < pos - 1; i++)
             p = p->next;
