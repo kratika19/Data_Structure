@@ -23,7 +23,7 @@ void createCLL(int A[], int n) {
     }
 }
 
-void insert(int pos, int x) {
+void insert(int pos, int x, int n) {
     struct Node *t, *p;
     t = new Node;
     t->next = nullptr;
@@ -42,10 +42,15 @@ void insert(int pos, int x) {
             head = t;
         }
     } else {
-        for (int i = 0; i < pos - 1; i++)
-            p = p->next;
-        t->next = p->next;
-        p->next = t;
+        if(pos>0 && pos<=n){
+            for (int i = 0; i < pos - 1; i++)
+                p = p->next;
+            t->next = p->next;
+            p->next = t;
+        }
+        else{
+            cout<<"Invalid index given for insertion"<<endl;
+        }
     }
 }
 
@@ -64,9 +69,11 @@ int main() {
     createCLL(A, 4);
     display(head);
     cout << endl;
-    int pos = 5;//position of insertion
+    int pos = 8;//position of insertion
     int x = 8;//value to be inserted
-    insert(pos-1, x);
+    int n = 4; //size of array
+    insert(pos-1, x,n);
+    cout<<endl;
     display(head);
     cout << endl;
     return 0;
