@@ -66,10 +66,18 @@ bool isFull(Stack s)
         return false;
 }
 
+void display(Stack s)
+{
+    for(int i=s.top;i<=0;i--)
+        cout<<s.Ar[i]<<endl;
+}
+
 int main()
 {
     cout<<"Enter the size of Array :"<<endl;
     cin>>st.size;
     st.Ar = new int[st.size];
     st.top = -1;
+
+    push(st,1);
 }
