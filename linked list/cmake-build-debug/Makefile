@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-G_/Semester4/dsa/Stack/StackUsingArray.obj: G_/Semester4/dsa/Stack/StackUsingArray.cpp.obj
+G_/Semester4/dsa/Sparse_Matrix/additionMatrices.obj: G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.obj
 
-.PHONY : G_/Semester4/dsa/Stack/StackUsingArray.obj
+.PHONY : G_/Semester4/dsa/Sparse_Matrix/additionMatrices.obj
 
 # target to build an object file
-G_/Semester4/dsa/Stack/StackUsingArray.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingArray.cpp.obj
-.PHONY : G_/Semester4/dsa/Stack/StackUsingArray.cpp.obj
+G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.obj
+.PHONY : G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.obj
 
-G_/Semester4/dsa/Stack/StackUsingArray.i: G_/Semester4/dsa/Stack/StackUsingArray.cpp.i
+G_/Semester4/dsa/Sparse_Matrix/additionMatrices.i: G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.i
 
-.PHONY : G_/Semester4/dsa/Stack/StackUsingArray.i
+.PHONY : G_/Semester4/dsa/Sparse_Matrix/additionMatrices.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Stack/StackUsingArray.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingArray.cpp.i
-.PHONY : G_/Semester4/dsa/Stack/StackUsingArray.cpp.i
+G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.i
+.PHONY : G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.i
 
-G_/Semester4/dsa/Stack/StackUsingArray.s: G_/Semester4/dsa/Stack/StackUsingArray.cpp.s
+G_/Semester4/dsa/Sparse_Matrix/additionMatrices.s: G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.s
 
-.PHONY : G_/Semester4/dsa/Stack/StackUsingArray.s
+.PHONY : G_/Semester4/dsa/Sparse_Matrix/additionMatrices.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Stack/StackUsingArray.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingArray.cpp.s
-.PHONY : G_/Semester4/dsa/Stack/StackUsingArray.cpp.s
+G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.s
+.PHONY : G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... G_/Semester4/dsa/Stack/StackUsingArray.obj
-	@echo ... G_/Semester4/dsa/Stack/StackUsingArray.i
-	@echo ... G_/Semester4/dsa/Stack/StackUsingArray.s
+	@echo ... G_/Semester4/dsa/Sparse_Matrix/additionMatrices.obj
+	@echo ... G_/Semester4/dsa/Sparse_Matrix/additionMatrices.i
+	@echo ... G_/Semester4/dsa/Sparse_Matrix/additionMatrices.s
 .PHONY : help
 
 
