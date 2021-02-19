@@ -29,33 +29,35 @@ int pop(Stack *s) {
 }
 
 int peek(Stack s, int pos) {
-    int index = s.top - pos - 1;
-    if (index < 0)
+    int index = s.top - pos + 1;
+    if (index < 0) {
         cout << "Invalid position entered!!" << endl;
+        return -1;
+    }
     else
         return s.Ar[index];
 }
-
-int stackTop(Stack s) {
-    if (s.top == -1)
-        return -1;
-    else
-        return s.Ar[s.top];
-}
-
-bool isEmpty(Stack s) {
-    if (s.top == -1)
-        return true;
-    else
-        return false;
-}
-
-bool isFull(Stack s) {
-    if (s.top == s.size - 1)
-        return true;
-    else
-        return false;
-}
+//
+//int stackTop(Stack s) {
+//    if (s.top == -1)
+//        return -1;
+//    else
+//        return s.Ar[s.top];
+//}
+//
+//bool isEmpty(Stack s) {
+//    if (s.top == -1)
+//        return true;
+//    else
+//        return false;
+//}
+//
+//bool isFull(Stack s) {
+//    if (s.top == s.size - 1)
+//        return true;
+//    else
+//        return false;
+//}
 
 void display(Stack s) {
     for (int i = s.top; i >= 0; i--)
@@ -68,12 +70,13 @@ int main() {
     st.Ar = new int[st.size];
     st.top = -1;
 
-    push(&st, 1);
-    push(&st, 3);
-    push(&st, 5);
-    push(&st, 7);
-    push(&st, 9);
-    push(&st, 11);
+//    push(&st, 1);
+//    push(&st, 3);
+//    push(&st, 5);
+//    push(&st, 7);
+//    push(&st, 9);
+//    push(&st, 11);
+
     int x;
     int choice;
     while (true) {
@@ -122,5 +125,4 @@ int main() {
             break;
         }
     }
-    display(st);
 }
