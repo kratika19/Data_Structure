@@ -101,7 +101,7 @@ int main() {
                     cout << "Enter position where you want to peak the value :" << endl;
                     cin >> pos;
                     int val = peek(st, pos);
-                    cout << "Value at position " << pos << "in stack is " << val << endl;
+                    cout << "Value at position " << pos << " in stack is " << val << endl;
                     cout << endl;
                     break;
                 }
