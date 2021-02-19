@@ -70,13 +70,6 @@ int main() {
     st.Ar = new int[st.size];
     st.top = -1;
 
-//    push(&st, 1);
-//    push(&st, 3);
-//    push(&st, 5);
-//    push(&st, 7);
-//    push(&st, 9);
-//    push(&st, 11);
-
     int x;
     int choice;
     while (true) {
