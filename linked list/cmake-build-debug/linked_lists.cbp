@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="G:/Semester4/dsa/Stack/StackUsingArray.cpp">
+			<Option target="linked_lists"/>
+		</Unit>
 		<Unit filename="G:/Semester4/dsa/linked list/DeleteCIrcularLL.cpp">
 			<Option target="linked_lists"/>
 		</Unit>

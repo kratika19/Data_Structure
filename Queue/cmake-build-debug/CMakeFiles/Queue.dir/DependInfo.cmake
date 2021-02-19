@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "G:/Semester4/dsa/linked list/DeleteCIrcularLL.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug/CMakeFiles/linked_lists.dir/DeleteCIrcularLL.cpp.obj"
-  "G:/Semester4/dsa/Stack/StackUsingArray.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug/CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingArray.cpp.obj"
+  "E:/Queue/main.cpp" "E:/Queue/cmake-build-debug/CMakeFiles/Queue.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

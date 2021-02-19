@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "G:\Semester4\dsa\linked list"
+CMAKE_SOURCE_DIR = E:\Queue
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "G:\Semester4\dsa\linked list\cmake-build-debug"
+CMAKE_BINARY_DIR = E:\Queue\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Semester4\dsa\linked list\cmake-build-debug\CMakeFiles" "G:\Semester4\dsa\linked list\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Queue\cmake-build-debug\CMakeFiles E:\Queue\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Semester4\dsa\linked list\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Queue\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,71 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named linked_lists
+# Target rules for targets named Queue
 
 # Build rule for target.
-linked_lists: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linked_lists
-.PHONY : linked_lists
+Queue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Queue
+.PHONY : Queue
 
 # fast build rule for target.
-linked_lists/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
-.PHONY : linked_lists/fast
+Queue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/build
+.PHONY : Queue/fast
 
-DeleteCIrcularLL.obj: DeleteCIrcularLL.cpp.obj
+main.obj: main.cpp.obj
 
-.PHONY : DeleteCIrcularLL.obj
-
-# target to build an object file
-DeleteCIrcularLL.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DeleteCIrcularLL.cpp.obj
-.PHONY : DeleteCIrcularLL.cpp.obj
-
-DeleteCIrcularLL.i: DeleteCIrcularLL.cpp.i
-
-.PHONY : DeleteCIrcularLL.i
-
-# target to preprocess a source file
-DeleteCIrcularLL.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DeleteCIrcularLL.cpp.i
-.PHONY : DeleteCIrcularLL.cpp.i
-
-DeleteCIrcularLL.s: DeleteCIrcularLL.cpp.s
-
-.PHONY : DeleteCIrcularLL.s
-
-# target to generate assembly for a file
-DeleteCIrcularLL.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DeleteCIrcularLL.cpp.s
-.PHONY : DeleteCIrcularLL.cpp.s
-
-G_/Semester4/dsa/Stack/StackUsingArray.obj: G_/Semester4/dsa/Stack/StackUsingArray.cpp.obj
-
-.PHONY : G_/Semester4/dsa/Stack/StackUsingArray.obj
+.PHONY : main.obj
 
 # target to build an object file
-G_/Semester4/dsa/Stack/StackUsingArray.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingArray.cpp.obj
-.PHONY : G_/Semester4/dsa/Stack/StackUsingArray.cpp.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-G_/Semester4/dsa/Stack/StackUsingArray.i: G_/Semester4/dsa/Stack/StackUsingArray.cpp.i
+main.i: main.cpp.i
 
-.PHONY : G_/Semester4/dsa/Stack/StackUsingArray.i
+.PHONY : main.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Stack/StackUsingArray.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingArray.cpp.i
-.PHONY : G_/Semester4/dsa/Stack/StackUsingArray.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-G_/Semester4/dsa/Stack/StackUsingArray.s: G_/Semester4/dsa/Stack/StackUsingArray.cpp.s
+main.s: main.cpp.s
 
-.PHONY : G_/Semester4/dsa/Stack/StackUsingArray.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Stack/StackUsingArray.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingArray.cpp.s
-.PHONY : G_/Semester4/dsa/Stack/StackUsingArray.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -204,13 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... linked_lists
-	@echo ... DeleteCIrcularLL.obj
-	@echo ... DeleteCIrcularLL.i
-	@echo ... DeleteCIrcularLL.s
-	@echo ... G_/Semester4/dsa/Stack/StackUsingArray.obj
-	@echo ... G_/Semester4/dsa/Stack/StackUsingArray.i
-	@echo ... G_/Semester4/dsa/Stack/StackUsingArray.s
+	@echo ... Queue
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

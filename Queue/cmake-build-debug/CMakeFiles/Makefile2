@@ -63,16 +63,16 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "G:\Semester4\dsa\linked list"
+CMAKE_SOURCE_DIR = E:\Queue
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "G:\Semester4\dsa\linked list\cmake-build-debug"
+CMAKE_BINARY_DIR = E:\Queue\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/linked_lists.dir/all
+all: CMakeFiles/Queue.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/linked_lists.dir/clean
+clean: CMakeFiles/Queue.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/linked_lists.dir
+# Target rules for target CMakeFiles/Queue.dir
 
 # All Build rule for target.
-CMakeFiles/linked_lists.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="G:\Semester4\dsa\linked list\cmake-build-debug\CMakeFiles" --progress-num=1,2,3 "Built target linked_lists"
-.PHONY : CMakeFiles/linked_lists.dir/all
+CMakeFiles/Queue.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Queue\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Queue"
+.PHONY : CMakeFiles/Queue.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/linked_lists.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Semester4\dsa\linked list\cmake-build-debug\CMakeFiles" 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/linked_lists.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "G:\Semester4\dsa\linked list\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/linked_lists.dir/rule
+CMakeFiles/Queue.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Queue\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Queue.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Queue\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Queue.dir/rule
 
 # Convenience name for target.
-linked_lists: CMakeFiles/linked_lists.dir/rule
+Queue: CMakeFiles/Queue.dir/rule
 
-.PHONY : linked_lists
+.PHONY : Queue
 
 # clean rule for target.
-CMakeFiles/linked_lists.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/clean
-.PHONY : CMakeFiles/linked_lists.dir/clean
+CMakeFiles/Queue.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/clean
+.PHONY : CMakeFiles/Queue.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
