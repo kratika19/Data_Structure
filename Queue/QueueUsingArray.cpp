@@ -15,6 +15,7 @@ void insertElement(struct Queue *q, int x) {
     else {
         q->rear++;
         q->Q[q->rear] = x;
+        cout << "Value inserted successfully!" << endl;
     }
 }
 
@@ -25,6 +26,7 @@ int deleteElement(struct Queue *q) {
     else {
         q->front++;
         a = q->Q[q->front];
+        cout << "Value " << a << " deleted successfully!" << endl;
     }
     return a;
 }
@@ -32,7 +34,7 @@ int deleteElement(struct Queue *q) {
 void display(struct Queue q) {
     int f = q.front + 1;
     while (f <= q.rear) {
-        cout << q.Q[f]<<endl;
+        cout << q.Q[f] << endl;
         f++;
     }
 }
@@ -49,40 +51,33 @@ int main() {
         cout << "*******QUEUE MENU*******" << endl;
         cout << "Press 1 to insert a value into queue" << endl;
         cout << "Press 2 to delete a value from queue" << endl;
-        cout << "Press 3 to peek any value" << endl;
-        cout << "Press 4 to display the elements of stack" << endl;
-        cout << "Press 5 to exit" << endl;
+        cout << "Press 3 to display the elements of queue" << endl;
+        cout << "Press 4 to exit" << endl;
         cout << "Make your choice :" << endl;
         cin >> choice;
-        if (choice != 5) {
+        if (choice != 4) {
             switch (choice) {
                 case 1: {
-                    cout << "Enter the value to be pushed :" << endl;
+                    cout << "Enter the value to be inserted :" << endl;
                     cin >> x;
-                    push(&st, x);
-                    cout << "Value pushed successfully!" << endl;
+                    insertElement(&queue, x);
+                    cout << endl;
                     break;
                 }
                 case 2: {
-                    int a = pop(&st);
-                    cout << "Value " << a << " popped successfully!" << endl;
+                    int a = deleteElement(&queue);
+                    cout << endl;
                     break;
                 }
                 case 3: {
-                    int pos;
-                    cout << "Enter position where you want to peak the value :" << endl;
-                    cin >> pos;
-                    int val = peek(st, pos);
-                    cout << "Value at position " << pos << "in stack is " << val << endl;
-                    break;
-                }
-                case 4: {
-                    cout << "Stack contents are:" << endl;
-                    display(st);
+                    cout << "Queue contents are:" << endl;
+                    display(queue);
+                    cout << endl;
                     break;
                 }
                 default: {
                     cout << "Invalid choice entered" << endl;
+                    cout << endl;
                     break;
                 }
 
