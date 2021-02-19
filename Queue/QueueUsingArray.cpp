@@ -42,16 +42,54 @@ int main() {
     cin >> queue.size;
     queue.front = queue.rear = -1;
     queue.Q = new int[queue.size];
-    insertElement(&queue, 1);
-    insertElement(&queue, 1);
-    insertElement(&queue, 1);
-    insertElement(&queue, 1);
-    insertElement(&queue, 1);
-    insertElement(&queue, 1);
-    display(queue);
-    cout << endl;
-    deleteElement(&queue);
-    display(queue);
-    cout << endl;
+
+    int x;
+    int choice;
+    while (true) {
+        cout << "*******QUEUE MENU*******" << endl;
+        cout << "Press 1 to insert a value into queue" << endl;
+        cout << "Press 2 to delete a value from queue" << endl;
+        cout << "Press 3 to peek any value" << endl;
+        cout << "Press 4 to display the elements of stack" << endl;
+        cout << "Press 5 to exit" << endl;
+        cout << "Make your choice :" << endl;
+        cin >> choice;
+        if (choice != 5) {
+            switch (choice) {
+                case 1: {
+                    cout << "Enter the value to be pushed :" << endl;
+                    cin >> x;
+                    push(&st, x);
+                    cout << "Value pushed successfully!" << endl;
+                    break;
+                }
+                case 2: {
+                    int a = pop(&st);
+                    cout << "Value " << a << " popped successfully!" << endl;
+                    break;
+                }
+                case 3: {
+                    int pos;
+                    cout << "Enter position where you want to peak the value :" << endl;
+                    cin >> pos;
+                    int val = peek(st, pos);
+                    cout << "Value at position " << pos << "in stack is " << val << endl;
+                    break;
+                }
+                case 4: {
+                    cout << "Stack contents are:" << endl;
+                    display(st);
+                    break;
+                }
+                default: {
+                    cout << "Invalid choice entered" << endl;
+                    break;
+                }
+
+            }
+        } else {
+            break;
+        }
+    }
     return 0;
 }

@@ -75,7 +75,7 @@ int main() {
     while (true) {
         cout << "*******STACK MENU*******" << endl;
         cout << "Press 1 to push a value into stack" << endl;
-        cout << "Press 2 to pop a value into stack" << endl;
+        cout << "Press 2 to pop a value from stack" << endl;
         cout << "Press 3 to peek any value" << endl;
         cout << "Press 4 to display the elements of stack" << endl;
         cout << "Press 5 to exit" << endl;
@@ -88,11 +88,13 @@ int main() {
                     cin >> x;
                     push(&st, x);
                     cout << "Value pushed successfully!" << endl;
+                    cout<<endl;
                     break;
                 }
                 case 2: {
                     int a = pop(&st);
                     cout << "Value " << a << " popped successfully!" << endl;
+                    cout<<endl;
                     break;
                 }
                 case 3: {
@@ -101,15 +103,18 @@ int main() {
                     cin >> pos;
                     int val = peek(st, pos);
                     cout << "Value at position " << pos << "in stack is " << val << endl;
+                    cout<<endl;
                     break;
                 }
                 case 4: {
                     cout << "Stack contents are:" << endl;
                     display(st);
+                    cout<<endl;
                     break;
                 }
                 default: {
                     cout << "Invalid choice entered" << endl;
+                    cout<<endl;
                     break;
                 }
 
