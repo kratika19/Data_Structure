@@ -14,6 +14,7 @@ void push(Stack *s, int x) {
     } else {
         (s->top)++;
         s->Ar[s->top] = x;
+        cout << "Value pushed successfully!" << endl;
     }
 }
 
@@ -24,6 +25,7 @@ int pop(Stack *s) {
     else {
         x = s->Ar[s->top];
         (s->top)--;
+        cout << "Value " << x << " popped successfully!" << endl;
     }
     return x;
 }
@@ -33,8 +35,7 @@ int peek(Stack s, int pos) {
     if (index < 0) {
         cout << "Invalid position entered!!" << endl;
         return -1;
-    }
-    else
+    } else
         return s.Ar[index];
 }
 //
@@ -87,14 +88,12 @@ int main() {
                     cout << "Enter the value to be pushed :" << endl;
                     cin >> x;
                     push(&st, x);
-                    cout << "Value pushed successfully!" << endl;
-                    cout<<endl;
+                    cout << endl;
                     break;
                 }
                 case 2: {
                     int a = pop(&st);
-                    cout << "Value " << a << " popped successfully!" << endl;
-                    cout<<endl;
+                    cout << endl;
                     break;
                 }
                 case 3: {
@@ -103,18 +102,18 @@ int main() {
                     cin >> pos;
                     int val = peek(st, pos);
                     cout << "Value at position " << pos << "in stack is " << val << endl;
-                    cout<<endl;
+                    cout << endl;
                     break;
                 }
                 case 4: {
                     cout << "Stack contents are:" << endl;
                     display(st);
-                    cout<<endl;
+                    cout << endl;
                     break;
                 }
                 default: {
                     cout << "Invalid choice entered" << endl;
-                    cout<<endl;
+                    cout << endl;
                     break;
                 }
 
