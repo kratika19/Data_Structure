@@ -142,33 +142,6 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-DeleteCIrcularLL.obj: DeleteCIrcularLL.cpp.obj
-
-.PHONY : DeleteCIrcularLL.obj
-
-# target to build an object file
-DeleteCIrcularLL.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DeleteCIrcularLL.cpp.obj
-.PHONY : DeleteCIrcularLL.cpp.obj
-
-DeleteCIrcularLL.i: DeleteCIrcularLL.cpp.i
-
-.PHONY : DeleteCIrcularLL.i
-
-# target to preprocess a source file
-DeleteCIrcularLL.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DeleteCIrcularLL.cpp.i
-.PHONY : DeleteCIrcularLL.cpp.i
-
-DeleteCIrcularLL.s: DeleteCIrcularLL.cpp.s
-
-.PHONY : DeleteCIrcularLL.s
-
-# target to generate assembly for a file
-DeleteCIrcularLL.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DeleteCIrcularLL.cpp.s
-.PHONY : DeleteCIrcularLL.cpp.s
-
 G_/Semester4/dsa/Stack/StackUsingArray.obj: G_/Semester4/dsa/Stack/StackUsingArray.cpp.obj
 
 .PHONY : G_/Semester4/dsa/Stack/StackUsingArray.obj
@@ -205,9 +178,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... DeleteCIrcularLL.obj
-	@echo ... DeleteCIrcularLL.i
-	@echo ... DeleteCIrcularLL.s
 	@echo ... G_/Semester4/dsa/Stack/StackUsingArray.obj
 	@echo ... G_/Semester4/dsa/Stack/StackUsingArray.i
 	@echo ... G_/Semester4/dsa/Stack/StackUsingArray.s

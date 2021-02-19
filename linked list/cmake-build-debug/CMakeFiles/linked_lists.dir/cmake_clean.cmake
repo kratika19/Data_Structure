@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/linked_lists.dir/DeleteCIrcularLL.cpp.obj"
   "CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingArray.cpp.obj"
   "liblinked_lists.dll.a"
   "linked_lists.exe"

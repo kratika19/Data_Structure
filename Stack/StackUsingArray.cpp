@@ -2,9 +2,9 @@
 using namespace std;
 
 struct Stack{
-   int size;
-   int top;
-   int *Ar;
+    int size;
+    int top;
+    int *Ar;
 }st;
 
 void push(Stack *s , int x)
@@ -16,7 +16,6 @@ void push(Stack *s , int x)
     else{
         (s->top)++;
         s->Ar[s->top] = x;
-        cout<<"Element added successfully !!"<<endl;
     }
 }
 
@@ -28,7 +27,6 @@ int pop(Stack *s)
     else{
         x = s->Ar[s->top];
         (s->top)--;
-        cout<<"Value popped out of stack successfully !!"<<endl;
     }
     return x;
 }
@@ -68,7 +66,7 @@ bool isFull(Stack s)
 
 void display(Stack s)
 {
-    for(int i=s.top;i<=0;i--)
+    for(int i=s.top;i>=0;i--)
         cout<<s.Ar[i]<<endl;
 }
 
@@ -79,5 +77,12 @@ int main()
     st.Ar = new int[st.size];
     st.top = -1;
 
-    push(st,1);
+    push(&st,1);
+    push(&st,3);
+    push(&st,5);
+    push(&st,7);
+    push(&st,9);
+    push(&st,11);
+
+    display(st);
 }
