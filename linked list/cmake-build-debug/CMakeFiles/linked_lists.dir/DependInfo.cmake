@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "G:/Semester4/dsa/Stack/StackUsingArray.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug/CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingArray.cpp.obj"
+  "G:/Semester4/dsa/Queue/QueueUsingArray.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug/CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/QueueUsingArray.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

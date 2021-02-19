@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-G_/Semester4/dsa/Stack/StackUsingArray.obj: G_/Semester4/dsa/Stack/StackUsingArray.cpp.obj
+G_/Semester4/dsa/Queue/QueueUsingArray.obj: G_/Semester4/dsa/Queue/QueueUsingArray.cpp.obj
 
-.PHONY : G_/Semester4/dsa/Stack/StackUsingArray.obj
+.PHONY : G_/Semester4/dsa/Queue/QueueUsingArray.obj
 
 # target to build an object file
-G_/Semester4/dsa/Stack/StackUsingArray.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingArray.cpp.obj
-.PHONY : G_/Semester4/dsa/Stack/StackUsingArray.cpp.obj
+G_/Semester4/dsa/Queue/QueueUsingArray.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/QueueUsingArray.cpp.obj
+.PHONY : G_/Semester4/dsa/Queue/QueueUsingArray.cpp.obj
 
-G_/Semester4/dsa/Stack/StackUsingArray.i: G_/Semester4/dsa/Stack/StackUsingArray.cpp.i
+G_/Semester4/dsa/Queue/QueueUsingArray.i: G_/Semester4/dsa/Queue/QueueUsingArray.cpp.i
 
-.PHONY : G_/Semester4/dsa/Stack/StackUsingArray.i
+.PHONY : G_/Semester4/dsa/Queue/QueueUsingArray.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Stack/StackUsingArray.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingArray.cpp.i
-.PHONY : G_/Semester4/dsa/Stack/StackUsingArray.cpp.i
+G_/Semester4/dsa/Queue/QueueUsingArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/QueueUsingArray.cpp.i
+.PHONY : G_/Semester4/dsa/Queue/QueueUsingArray.cpp.i
 
-G_/Semester4/dsa/Stack/StackUsingArray.s: G_/Semester4/dsa/Stack/StackUsingArray.cpp.s
+G_/Semester4/dsa/Queue/QueueUsingArray.s: G_/Semester4/dsa/Queue/QueueUsingArray.cpp.s
 
-.PHONY : G_/Semester4/dsa/Stack/StackUsingArray.s
+.PHONY : G_/Semester4/dsa/Queue/QueueUsingArray.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Stack/StackUsingArray.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingArray.cpp.s
-.PHONY : G_/Semester4/dsa/Stack/StackUsingArray.cpp.s
+G_/Semester4/dsa/Queue/QueueUsingArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/QueueUsingArray.cpp.s
+.PHONY : G_/Semester4/dsa/Queue/QueueUsingArray.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... G_/Semester4/dsa/Stack/StackUsingArray.obj
-	@echo ... G_/Semester4/dsa/Stack/StackUsingArray.i
-	@echo ... G_/Semester4/dsa/Stack/StackUsingArray.s
+	@echo ... G_/Semester4/dsa/Queue/QueueUsingArray.obj
+	@echo ... G_/Semester4/dsa/Queue/QueueUsingArray.i
+	@echo ... G_/Semester4/dsa/Queue/QueueUsingArray.s
 .PHONY : help
 
 
