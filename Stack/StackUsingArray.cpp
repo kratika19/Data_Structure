@@ -33,6 +33,39 @@ int pop(Stack *s)
     return x;
 }
 
+int peek(Stack s, int pos)
+{
+    int index = s.top - pos - 1;
+    if(index<0)
+        cout<<"Invalid position entered!!"<<endl;
+    else
+        return s.Ar[index];
+}
+
+int stackTop(Stack s)
+{
+    if(s.top == -1)
+        return -1;
+    else
+        return s.Ar[s.top];
+}
+
+bool isEmpty(Stack s)
+{
+    if(s.top == -1)
+        return true;
+    else
+        return false;
+}
+
+bool isFull(Stack s)
+{
+    if(s.top == s.size-1)
+        return true;
+    else
+        return false;
+}
+
 int main()
 {
     cout<<"Enter the size of Array :"<<endl;
