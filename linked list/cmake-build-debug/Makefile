@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-G_/Semester4/dsa/Sparse_Matrix/additionMatrices.obj: G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.obj
+G_/Semester4/dsa/Stack/Postfix_Notation.obj: G_/Semester4/dsa/Stack/Postfix_Notation.cpp.obj
 
-.PHONY : G_/Semester4/dsa/Sparse_Matrix/additionMatrices.obj
+.PHONY : G_/Semester4/dsa/Stack/Postfix_Notation.obj
 
 # target to build an object file
-G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.obj
-.PHONY : G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.obj
+G_/Semester4/dsa/Stack/Postfix_Notation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/Postfix_Notation.cpp.obj
+.PHONY : G_/Semester4/dsa/Stack/Postfix_Notation.cpp.obj
 
-G_/Semester4/dsa/Sparse_Matrix/additionMatrices.i: G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.i
+G_/Semester4/dsa/Stack/Postfix_Notation.i: G_/Semester4/dsa/Stack/Postfix_Notation.cpp.i
 
-.PHONY : G_/Semester4/dsa/Sparse_Matrix/additionMatrices.i
+.PHONY : G_/Semester4/dsa/Stack/Postfix_Notation.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.i
-.PHONY : G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.i
+G_/Semester4/dsa/Stack/Postfix_Notation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/Postfix_Notation.cpp.i
+.PHONY : G_/Semester4/dsa/Stack/Postfix_Notation.cpp.i
 
-G_/Semester4/dsa/Sparse_Matrix/additionMatrices.s: G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.s
+G_/Semester4/dsa/Stack/Postfix_Notation.s: G_/Semester4/dsa/Stack/Postfix_Notation.cpp.s
 
-.PHONY : G_/Semester4/dsa/Sparse_Matrix/additionMatrices.s
+.PHONY : G_/Semester4/dsa/Stack/Postfix_Notation.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.s
-.PHONY : G_/Semester4/dsa/Sparse_Matrix/additionMatrices.cpp.s
+G_/Semester4/dsa/Stack/Postfix_Notation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/Postfix_Notation.cpp.s
+.PHONY : G_/Semester4/dsa/Stack/Postfix_Notation.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... G_/Semester4/dsa/Sparse_Matrix/additionMatrices.obj
-	@echo ... G_/Semester4/dsa/Sparse_Matrix/additionMatrices.i
-	@echo ... G_/Semester4/dsa/Sparse_Matrix/additionMatrices.s
+	@echo ... G_/Semester4/dsa/Stack/Postfix_Notation.obj
+	@echo ... G_/Semester4/dsa/Stack/Postfix_Notation.i
+	@echo ... G_/Semester4/dsa/Stack/Postfix_Notation.s
 .PHONY : help
 
 
