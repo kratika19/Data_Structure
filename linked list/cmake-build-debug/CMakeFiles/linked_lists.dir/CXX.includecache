@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-G:/Semester4/dsa/Stack/StackUsingArray.cpp
+G:/Semester4/dsa/Stack/Postfix Notation.cpp
 iostream
+-
+cmath
+-
+cstring
 -
 
