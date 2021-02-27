@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.obj: G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.obj
+G_/Semester4/dsa/Stack/InfixToPostfixConversion.obj: G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.obj
 
-.PHONY : G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.obj
+.PHONY : G_/Semester4/dsa/Stack/InfixToPostfixConversion.obj
 
 # target to build an object file
-G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.obj
-.PHONY : G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.obj
+G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.obj
+.PHONY : G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.obj
 
-G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.i: G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.i
+G_/Semester4/dsa/Stack/InfixToPostfixConversion.i: G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.i
 
-.PHONY : G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.i
+.PHONY : G_/Semester4/dsa/Stack/InfixToPostfixConversion.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.i
-.PHONY : G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.i
+G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.i
+.PHONY : G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.i
 
-G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.s: G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.s
+G_/Semester4/dsa/Stack/InfixToPostfixConversion.s: G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.s
 
-.PHONY : G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.s
+.PHONY : G_/Semester4/dsa/Stack/InfixToPostfixConversion.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.s
-.PHONY : G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.s
+G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.s
+.PHONY : G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.obj
-	@echo ... G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.i
-	@echo ... G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.s
+	@echo ... G_/Semester4/dsa/Stack/InfixToPostfixConversion.obj
+	@echo ... G_/Semester4/dsa/Stack/InfixToPostfixConversion.i
+	@echo ... G_/Semester4/dsa/Stack/InfixToPostfixConversion.s
 .PHONY : help
 
 
