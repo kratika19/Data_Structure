@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-G:/Semester4/dsa/Stack/ParenthesisMatching.cpp
+G:/Semester4/dsa/Stack/InfixToPostfixConversion.cpp
 iostream
--
-cstring
 -
 
