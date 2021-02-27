@@ -169,6 +169,33 @@ G_/Semester4/dsa/Stack/ParenthesisMatching.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/ParenthesisMatching.cpp.s
 .PHONY : G_/Semester4/dsa/Stack/ParenthesisMatching.cpp.s
 
+G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.obj: G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.obj
+
+.PHONY : G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.obj
+
+# target to build an object file
+G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.obj
+.PHONY : G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.obj
+
+G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.i: G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.i
+
+.PHONY : G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.i
+
+# target to preprocess a source file
+G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.i
+.PHONY : G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.i
+
+G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.s: G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.s
+
+.PHONY : G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.s
+
+# target to generate assembly for a file
+G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.s
+.PHONY : G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -181,6 +208,9 @@ help:
 	@echo ... G_/Semester4/dsa/Stack/ParenthesisMatching.obj
 	@echo ... G_/Semester4/dsa/Stack/ParenthesisMatching.i
 	@echo ... G_/Semester4/dsa/Stack/ParenthesisMatching.s
+	@echo ... G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.obj
+	@echo ... G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.i
+	@echo ... G_/Semester4/dsa/Stack/Parenthesis_Matching_Advanced.s
 .PHONY : help
 
 
