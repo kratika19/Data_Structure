@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="G:/Semester4/dsa/Stack/Postfix Notation.cpp">
+		<Unit filename="G:/Semester4/dsa/Stack/StackUsingLL.cpp">
 			<Option target="linked_lists"/>
 		</Unit>
 		<Unit filename="G:/Semester4/dsa/linked list/CMakeLists.txt">

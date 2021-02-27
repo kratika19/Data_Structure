@@ -76,27 +76,27 @@ include CMakeFiles/linked_lists.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/linked_lists.dir/flags.make
 
-CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/Postfix_Notation.cpp.obj: CMakeFiles/linked_lists.dir/flags.make
-CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/Postfix_Notation.cpp.obj: G:/Semester4/dsa/Stack/Postfix\ Notation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Semester4\dsa\linked list\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/Postfix_Notation.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\linked_lists.dir\G_\Semester4\dsa\Stack\Postfix_Notation.cpp.obj -c "G:\Semester4\dsa\Stack\Postfix Notation.cpp"
+CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingLL.cpp.obj: CMakeFiles/linked_lists.dir/flags.make
+CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingLL.cpp.obj: G:/Semester4/dsa/Stack/StackUsingLL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Semester4\dsa\linked list\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingLL.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\linked_lists.dir\G_\Semester4\dsa\Stack\StackUsingLL.cpp.obj -c G:\Semester4\dsa\Stack\StackUsingLL.cpp
 
-CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/Postfix_Notation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/Postfix_Notation.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Semester4\dsa\Stack\Postfix Notation.cpp" > CMakeFiles\linked_lists.dir\G_\Semester4\dsa\Stack\Postfix_Notation.cpp.i
+CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingLL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingLL.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Semester4\dsa\Stack\StackUsingLL.cpp > CMakeFiles\linked_lists.dir\G_\Semester4\dsa\Stack\StackUsingLL.cpp.i
 
-CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/Postfix_Notation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/Postfix_Notation.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Semester4\dsa\Stack\Postfix Notation.cpp" -o CMakeFiles\linked_lists.dir\G_\Semester4\dsa\Stack\Postfix_Notation.cpp.s
+CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingLL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingLL.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Semester4\dsa\Stack\StackUsingLL.cpp -o CMakeFiles\linked_lists.dir\G_\Semester4\dsa\Stack\StackUsingLL.cpp.s
 
 # Object files for target linked_lists
 linked_lists_OBJECTS = \
-"CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/Postfix_Notation.cpp.obj"
+"CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingLL.cpp.obj"
 
 # External object files for target linked_lists
 linked_lists_EXTERNAL_OBJECTS =
 
-linked_lists.exe: CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/Postfix_Notation.cpp.obj
+linked_lists.exe: CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingLL.cpp.obj
 linked_lists.exe: CMakeFiles/linked_lists.dir/build.make
 linked_lists.exe: CMakeFiles/linked_lists.dir/linklibs.rsp
 linked_lists.exe: CMakeFiles/linked_lists.dir/objects1.rsp
