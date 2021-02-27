@@ -85,9 +85,6 @@
 		<Unit filename="G:/Semester4/dsa/Stack/Parenthesis Matching Advanced.cpp">
 			<Option target="linked_lists"/>
 		</Unit>
-		<Unit filename="G:/Semester4/dsa/Stack/ParenthesisMatching.cpp">
-			<Option target="linked_lists"/>
-		</Unit>
 		<Unit filename="G:/Semester4/dsa/linked list/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
