@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-G_/Semester4/dsa/Stack/InfixToPostfixConversion.obj: G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.obj
+G_/Semester4/dsa/Stack/StackUsingLL.obj: G_/Semester4/dsa/Stack/StackUsingLL.cpp.obj
 
-.PHONY : G_/Semester4/dsa/Stack/InfixToPostfixConversion.obj
+.PHONY : G_/Semester4/dsa/Stack/StackUsingLL.obj
 
 # target to build an object file
-G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.obj
-.PHONY : G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.obj
+G_/Semester4/dsa/Stack/StackUsingLL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingLL.cpp.obj
+.PHONY : G_/Semester4/dsa/Stack/StackUsingLL.cpp.obj
 
-G_/Semester4/dsa/Stack/InfixToPostfixConversion.i: G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.i
+G_/Semester4/dsa/Stack/StackUsingLL.i: G_/Semester4/dsa/Stack/StackUsingLL.cpp.i
 
-.PHONY : G_/Semester4/dsa/Stack/InfixToPostfixConversion.i
+.PHONY : G_/Semester4/dsa/Stack/StackUsingLL.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.i
-.PHONY : G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.i
+G_/Semester4/dsa/Stack/StackUsingLL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingLL.cpp.i
+.PHONY : G_/Semester4/dsa/Stack/StackUsingLL.cpp.i
 
-G_/Semester4/dsa/Stack/InfixToPostfixConversion.s: G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.s
+G_/Semester4/dsa/Stack/StackUsingLL.s: G_/Semester4/dsa/Stack/StackUsingLL.cpp.s
 
-.PHONY : G_/Semester4/dsa/Stack/InfixToPostfixConversion.s
+.PHONY : G_/Semester4/dsa/Stack/StackUsingLL.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.s
-.PHONY : G_/Semester4/dsa/Stack/InfixToPostfixConversion.cpp.s
+G_/Semester4/dsa/Stack/StackUsingLL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingLL.cpp.s
+.PHONY : G_/Semester4/dsa/Stack/StackUsingLL.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... G_/Semester4/dsa/Stack/InfixToPostfixConversion.obj
-	@echo ... G_/Semester4/dsa/Stack/InfixToPostfixConversion.i
-	@echo ... G_/Semester4/dsa/Stack/InfixToPostfixConversion.s
+	@echo ... G_/Semester4/dsa/Stack/StackUsingLL.obj
+	@echo ... G_/Semester4/dsa/Stack/StackUsingLL.i
+	@echo ... G_/Semester4/dsa/Stack/StackUsingLL.s
 .PHONY : help
 
 
