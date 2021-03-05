@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-G_/Semester4/dsa/Stack/StackUsingLL.obj: G_/Semester4/dsa/Stack/StackUsingLL.cpp.obj
+G_/Semester4/dsa/Queue/QueueUsingLL.obj: G_/Semester4/dsa/Queue/QueueUsingLL.cpp.obj
 
-.PHONY : G_/Semester4/dsa/Stack/StackUsingLL.obj
+.PHONY : G_/Semester4/dsa/Queue/QueueUsingLL.obj
 
 # target to build an object file
-G_/Semester4/dsa/Stack/StackUsingLL.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingLL.cpp.obj
-.PHONY : G_/Semester4/dsa/Stack/StackUsingLL.cpp.obj
+G_/Semester4/dsa/Queue/QueueUsingLL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/QueueUsingLL.cpp.obj
+.PHONY : G_/Semester4/dsa/Queue/QueueUsingLL.cpp.obj
 
-G_/Semester4/dsa/Stack/StackUsingLL.i: G_/Semester4/dsa/Stack/StackUsingLL.cpp.i
+G_/Semester4/dsa/Queue/QueueUsingLL.i: G_/Semester4/dsa/Queue/QueueUsingLL.cpp.i
 
-.PHONY : G_/Semester4/dsa/Stack/StackUsingLL.i
+.PHONY : G_/Semester4/dsa/Queue/QueueUsingLL.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Stack/StackUsingLL.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingLL.cpp.i
-.PHONY : G_/Semester4/dsa/Stack/StackUsingLL.cpp.i
+G_/Semester4/dsa/Queue/QueueUsingLL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/QueueUsingLL.cpp.i
+.PHONY : G_/Semester4/dsa/Queue/QueueUsingLL.cpp.i
 
-G_/Semester4/dsa/Stack/StackUsingLL.s: G_/Semester4/dsa/Stack/StackUsingLL.cpp.s
+G_/Semester4/dsa/Queue/QueueUsingLL.s: G_/Semester4/dsa/Queue/QueueUsingLL.cpp.s
 
-.PHONY : G_/Semester4/dsa/Stack/StackUsingLL.s
+.PHONY : G_/Semester4/dsa/Queue/QueueUsingLL.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Stack/StackUsingLL.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Stack/StackUsingLL.cpp.s
-.PHONY : G_/Semester4/dsa/Stack/StackUsingLL.cpp.s
+G_/Semester4/dsa/Queue/QueueUsingLL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/QueueUsingLL.cpp.s
+.PHONY : G_/Semester4/dsa/Queue/QueueUsingLL.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... G_/Semester4/dsa/Stack/StackUsingLL.obj
-	@echo ... G_/Semester4/dsa/Stack/StackUsingLL.i
-	@echo ... G_/Semester4/dsa/Stack/StackUsingLL.s
+	@echo ... G_/Semester4/dsa/Queue/QueueUsingLL.obj
+	@echo ... G_/Semester4/dsa/Queue/QueueUsingLL.i
+	@echo ... G_/Semester4/dsa/Queue/QueueUsingLL.s
 .PHONY : help
 
 
