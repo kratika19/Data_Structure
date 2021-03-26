@@ -34,7 +34,7 @@ int pop() {
 int peek(int pos) {
     Node *p = NULL;
     p = top;
-    for (int i = 0; i < pos - 1; i++) {
+    for (int i = 0; i < pos-1; i++) {
         p = p->next;
     }
     if (p != NULL)
@@ -54,8 +54,6 @@ void displayStack() {
 }
 
 int main() {
-//    cout << "Enter the size of Array :" << endl;
-//    cin >> st.size;
 
     int x;
     int choice;

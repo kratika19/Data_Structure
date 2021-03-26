@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-G:/Semester4/dsa/Stack/StackUsingLL.cpp
-iostream
+G:/Semester4/dsa/Trees/Traversal.cpp
+bits/stdc++.h
 -
 

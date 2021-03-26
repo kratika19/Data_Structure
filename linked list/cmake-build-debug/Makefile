@@ -142,32 +142,59 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-G_/Semester4/dsa/Queue/QueueUsingLL.obj: G_/Semester4/dsa/Queue/QueueUsingLL.cpp.obj
+DoubleLL.obj: DoubleLL.cpp.obj
 
-.PHONY : G_/Semester4/dsa/Queue/QueueUsingLL.obj
+.PHONY : DoubleLL.obj
 
 # target to build an object file
-G_/Semester4/dsa/Queue/QueueUsingLL.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/QueueUsingLL.cpp.obj
-.PHONY : G_/Semester4/dsa/Queue/QueueUsingLL.cpp.obj
+DoubleLL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DoubleLL.cpp.obj
+.PHONY : DoubleLL.cpp.obj
 
-G_/Semester4/dsa/Queue/QueueUsingLL.i: G_/Semester4/dsa/Queue/QueueUsingLL.cpp.i
+DoubleLL.i: DoubleLL.cpp.i
 
-.PHONY : G_/Semester4/dsa/Queue/QueueUsingLL.i
+.PHONY : DoubleLL.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Queue/QueueUsingLL.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/QueueUsingLL.cpp.i
-.PHONY : G_/Semester4/dsa/Queue/QueueUsingLL.cpp.i
+DoubleLL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DoubleLL.cpp.i
+.PHONY : DoubleLL.cpp.i
 
-G_/Semester4/dsa/Queue/QueueUsingLL.s: G_/Semester4/dsa/Queue/QueueUsingLL.cpp.s
+DoubleLL.s: DoubleLL.cpp.s
 
-.PHONY : G_/Semester4/dsa/Queue/QueueUsingLL.s
+.PHONY : DoubleLL.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Queue/QueueUsingLL.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/QueueUsingLL.cpp.s
-.PHONY : G_/Semester4/dsa/Queue/QueueUsingLL.cpp.s
+DoubleLL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DoubleLL.cpp.s
+.PHONY : DoubleLL.cpp.s
+
+G_/Semester4/dsa/Trees/Traversal.obj: G_/Semester4/dsa/Trees/Traversal.cpp.obj
+
+.PHONY : G_/Semester4/dsa/Trees/Traversal.obj
+
+# target to build an object file
+G_/Semester4/dsa/Trees/Traversal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Trees/Traversal.cpp.obj
+.PHONY : G_/Semester4/dsa/Trees/Traversal.cpp.obj
+
+G_/Semester4/dsa/Trees/Traversal.i: G_/Semester4/dsa/Trees/Traversal.cpp.i
+
+.PHONY : G_/Semester4/dsa/Trees/Traversal.i
+
+# target to preprocess a source file
+G_/Semester4/dsa/Trees/Traversal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Trees/Traversal.cpp.i
+.PHONY : G_/Semester4/dsa/Trees/Traversal.cpp.i
+
+G_/Semester4/dsa/Trees/Traversal.s: G_/Semester4/dsa/Trees/Traversal.cpp.s
+
+.PHONY : G_/Semester4/dsa/Trees/Traversal.s
+
+# target to generate assembly for a file
+G_/Semester4/dsa/Trees/Traversal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Trees/Traversal.cpp.s
+.PHONY : G_/Semester4/dsa/Trees/Traversal.cpp.s
 
 # Help Target
 help:
@@ -178,9 +205,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... G_/Semester4/dsa/Queue/QueueUsingLL.obj
-	@echo ... G_/Semester4/dsa/Queue/QueueUsingLL.i
-	@echo ... G_/Semester4/dsa/Queue/QueueUsingLL.s
+	@echo ... DoubleLL.obj
+	@echo ... DoubleLL.i
+	@echo ... DoubleLL.s
+	@echo ... G_/Semester4/dsa/Trees/Traversal.obj
+	@echo ... G_/Semester4/dsa/Trees/Traversal.i
+	@echo ... G_/Semester4/dsa/Trees/Traversal.s
 .PHONY : help
 
 

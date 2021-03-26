@@ -15,13 +15,14 @@ struct Node {
 } *front = NULL, *rear = NULL;
 
 void insertElement(int x) {
-    struct Node *q = new Node;
+    struct Node *q;
+    q = new Node;
     if (q == NULL)
         cout << "Queue overflow!!" << endl;
     else {
         q->data = x;
         q->next = NULL;
-        if (front = NULL) {
+        if (front == NULL) {
             front = rear = q;
         } else {
             rear->next = q;
@@ -33,8 +34,8 @@ void insertElement(int x) {
 
 int deleteElement() {
     int a = -1;
-    struct Node *q = new Node;
-    if (q == NULL)
+    struct Node *q;
+    if (front == NULL)
         cout << "Queue underflow!!" << endl;
     else {
         a = front->data;
@@ -47,7 +48,7 @@ int deleteElement() {
 }
 
 void display() {
-    struct Node *q = new Node;
+    struct Node *q = front;
     while (q) {
         cout << q->data << endl;
         q = q->next;
@@ -77,7 +78,7 @@ int main() {
                     break;
                 }
                 case 2: {
-                    int a = deleteElement();
+                    deleteElement();
                     cout << endl;
                     break;
                 }

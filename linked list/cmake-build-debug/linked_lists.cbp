@@ -82,7 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="G:/Semester4/dsa/Queue/QueueUsingLL.cpp">
+		<Unit filename="G:/Semester4/dsa/Trees/Traversal.cpp">
+			<Option target="linked_lists"/>
+		</Unit>
+		<Unit filename="G:/Semester4/dsa/linked list/DoubleLL.cpp">
 			<Option target="linked_lists"/>
 		</Unit>
 		<Unit filename="G:/Semester4/dsa/linked list/CMakeLists.txt">
