@@ -142,32 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-insertInDoublyLL.obj: insertInDoublyLL.cpp.obj
+deleteInDoublyLL.obj: deleteInDoublyLL.cpp.obj
 
-.PHONY : insertInDoublyLL.obj
+.PHONY : deleteInDoublyLL.obj
 
 # target to build an object file
-insertInDoublyLL.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/insertInDoublyLL.cpp.obj
-.PHONY : insertInDoublyLL.cpp.obj
+deleteInDoublyLL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/deleteInDoublyLL.cpp.obj
+.PHONY : deleteInDoublyLL.cpp.obj
 
-insertInDoublyLL.i: insertInDoublyLL.cpp.i
+deleteInDoublyLL.i: deleteInDoublyLL.cpp.i
 
-.PHONY : insertInDoublyLL.i
+.PHONY : deleteInDoublyLL.i
 
 # target to preprocess a source file
-insertInDoublyLL.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/insertInDoublyLL.cpp.i
-.PHONY : insertInDoublyLL.cpp.i
+deleteInDoublyLL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/deleteInDoublyLL.cpp.i
+.PHONY : deleteInDoublyLL.cpp.i
 
-insertInDoublyLL.s: insertInDoublyLL.cpp.s
+deleteInDoublyLL.s: deleteInDoublyLL.cpp.s
 
-.PHONY : insertInDoublyLL.s
+.PHONY : deleteInDoublyLL.s
 
 # target to generate assembly for a file
-insertInDoublyLL.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/insertInDoublyLL.cpp.s
-.PHONY : insertInDoublyLL.cpp.s
+deleteInDoublyLL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/deleteInDoublyLL.cpp.s
+.PHONY : deleteInDoublyLL.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... insertInDoublyLL.obj
-	@echo ... insertInDoublyLL.i
-	@echo ... insertInDoublyLL.s
+	@echo ... deleteInDoublyLL.obj
+	@echo ... deleteInDoublyLL.i
+	@echo ... deleteInDoublyLL.s
 .PHONY : help
 
 
