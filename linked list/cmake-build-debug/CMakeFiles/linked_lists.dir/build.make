@@ -76,47 +76,32 @@ include CMakeFiles/linked_lists.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/linked_lists.dir/flags.make
 
-CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Trees/Traversal.cpp.obj: CMakeFiles/linked_lists.dir/flags.make
-CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Trees/Traversal.cpp.obj: G:/Semester4/dsa/Trees/Traversal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Semester4\dsa\linked list\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Trees/Traversal.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\linked_lists.dir\G_\Semester4\dsa\Trees\Traversal.cpp.obj -c G:\Semester4\dsa\Trees\Traversal.cpp
+CMakeFiles/linked_lists.dir/insertInDoublyLL.cpp.obj: CMakeFiles/linked_lists.dir/flags.make
+CMakeFiles/linked_lists.dir/insertInDoublyLL.cpp.obj: ../insertInDoublyLL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Semester4\dsa\linked list\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linked_lists.dir/insertInDoublyLL.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\linked_lists.dir\insertInDoublyLL.cpp.obj -c "G:\Semester4\dsa\linked list\insertInDoublyLL.cpp"
 
-CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Trees/Traversal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Trees/Traversal.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Semester4\dsa\Trees\Traversal.cpp > CMakeFiles\linked_lists.dir\G_\Semester4\dsa\Trees\Traversal.cpp.i
+CMakeFiles/linked_lists.dir/insertInDoublyLL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linked_lists.dir/insertInDoublyLL.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Semester4\dsa\linked list\insertInDoublyLL.cpp" > CMakeFiles\linked_lists.dir\insertInDoublyLL.cpp.i
 
-CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Trees/Traversal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Trees/Traversal.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Semester4\dsa\Trees\Traversal.cpp -o CMakeFiles\linked_lists.dir\G_\Semester4\dsa\Trees\Traversal.cpp.s
-
-CMakeFiles/linked_lists.dir/DoubleLL.cpp.obj: CMakeFiles/linked_lists.dir/flags.make
-CMakeFiles/linked_lists.dir/DoubleLL.cpp.obj: ../DoubleLL.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Semester4\dsa\linked list\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/linked_lists.dir/DoubleLL.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\linked_lists.dir\DoubleLL.cpp.obj -c "G:\Semester4\dsa\linked list\DoubleLL.cpp"
-
-CMakeFiles/linked_lists.dir/DoubleLL.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linked_lists.dir/DoubleLL.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Semester4\dsa\linked list\DoubleLL.cpp" > CMakeFiles\linked_lists.dir\DoubleLL.cpp.i
-
-CMakeFiles/linked_lists.dir/DoubleLL.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linked_lists.dir/DoubleLL.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Semester4\dsa\linked list\DoubleLL.cpp" -o CMakeFiles\linked_lists.dir\DoubleLL.cpp.s
+CMakeFiles/linked_lists.dir/insertInDoublyLL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linked_lists.dir/insertInDoublyLL.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Semester4\dsa\linked list\insertInDoublyLL.cpp" -o CMakeFiles\linked_lists.dir\insertInDoublyLL.cpp.s
 
 # Object files for target linked_lists
 linked_lists_OBJECTS = \
-"CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Trees/Traversal.cpp.obj" \
-"CMakeFiles/linked_lists.dir/DoubleLL.cpp.obj"
+"CMakeFiles/linked_lists.dir/insertInDoublyLL.cpp.obj"
 
 # External object files for target linked_lists
 linked_lists_EXTERNAL_OBJECTS =
 
-linked_lists.exe: CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Trees/Traversal.cpp.obj
-linked_lists.exe: CMakeFiles/linked_lists.dir/DoubleLL.cpp.obj
+linked_lists.exe: CMakeFiles/linked_lists.dir/insertInDoublyLL.cpp.obj
 linked_lists.exe: CMakeFiles/linked_lists.dir/build.make
 linked_lists.exe: CMakeFiles/linked_lists.dir/linklibs.rsp
 linked_lists.exe: CMakeFiles/linked_lists.dir/objects1.rsp
 linked_lists.exe: CMakeFiles/linked_lists.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="G:\Semester4\dsa\linked list\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable linked_lists.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="G:\Semester4\dsa\linked list\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable linked_lists.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\linked_lists.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

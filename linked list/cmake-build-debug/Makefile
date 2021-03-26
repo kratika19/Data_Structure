@@ -142,59 +142,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-DoubleLL.obj: DoubleLL.cpp.obj
+insertInDoublyLL.obj: insertInDoublyLL.cpp.obj
 
-.PHONY : DoubleLL.obj
-
-# target to build an object file
-DoubleLL.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DoubleLL.cpp.obj
-.PHONY : DoubleLL.cpp.obj
-
-DoubleLL.i: DoubleLL.cpp.i
-
-.PHONY : DoubleLL.i
-
-# target to preprocess a source file
-DoubleLL.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DoubleLL.cpp.i
-.PHONY : DoubleLL.cpp.i
-
-DoubleLL.s: DoubleLL.cpp.s
-
-.PHONY : DoubleLL.s
-
-# target to generate assembly for a file
-DoubleLL.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/DoubleLL.cpp.s
-.PHONY : DoubleLL.cpp.s
-
-G_/Semester4/dsa/Trees/Traversal.obj: G_/Semester4/dsa/Trees/Traversal.cpp.obj
-
-.PHONY : G_/Semester4/dsa/Trees/Traversal.obj
+.PHONY : insertInDoublyLL.obj
 
 # target to build an object file
-G_/Semester4/dsa/Trees/Traversal.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Trees/Traversal.cpp.obj
-.PHONY : G_/Semester4/dsa/Trees/Traversal.cpp.obj
+insertInDoublyLL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/insertInDoublyLL.cpp.obj
+.PHONY : insertInDoublyLL.cpp.obj
 
-G_/Semester4/dsa/Trees/Traversal.i: G_/Semester4/dsa/Trees/Traversal.cpp.i
+insertInDoublyLL.i: insertInDoublyLL.cpp.i
 
-.PHONY : G_/Semester4/dsa/Trees/Traversal.i
+.PHONY : insertInDoublyLL.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Trees/Traversal.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Trees/Traversal.cpp.i
-.PHONY : G_/Semester4/dsa/Trees/Traversal.cpp.i
+insertInDoublyLL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/insertInDoublyLL.cpp.i
+.PHONY : insertInDoublyLL.cpp.i
 
-G_/Semester4/dsa/Trees/Traversal.s: G_/Semester4/dsa/Trees/Traversal.cpp.s
+insertInDoublyLL.s: insertInDoublyLL.cpp.s
 
-.PHONY : G_/Semester4/dsa/Trees/Traversal.s
+.PHONY : insertInDoublyLL.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Trees/Traversal.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Trees/Traversal.cpp.s
-.PHONY : G_/Semester4/dsa/Trees/Traversal.cpp.s
+insertInDoublyLL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/insertInDoublyLL.cpp.s
+.PHONY : insertInDoublyLL.cpp.s
 
 # Help Target
 help:
@@ -205,12 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... DoubleLL.obj
-	@echo ... DoubleLL.i
-	@echo ... DoubleLL.s
-	@echo ... G_/Semester4/dsa/Trees/Traversal.obj
-	@echo ... G_/Semester4/dsa/Trees/Traversal.i
-	@echo ... G_/Semester4/dsa/Trees/Traversal.s
+	@echo ... insertInDoublyLL.obj
+	@echo ... insertInDoublyLL.i
+	@echo ... insertInDoublyLL.s
 .PHONY : help
 
 

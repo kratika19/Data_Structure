@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "G:/Semester4/dsa/linked list/DoubleLL.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug/CMakeFiles/linked_lists.dir/DoubleLL.cpp.obj"
-  "G:/Semester4/dsa/Trees/Traversal.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug/CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Trees/Traversal.cpp.obj"
+  "G:/Semester4/dsa/linked list/insertInDoublyLL.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug/CMakeFiles/linked_lists.dir/insertInDoublyLL.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
