@@ -1,7 +1,3 @@
-//
-// Created by krati on 12-04-2021.
-//
-
 #include <iostream>
 
 using namespace std;
