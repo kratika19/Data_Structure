@@ -46,7 +46,7 @@ int main() {
 
 //**************Bubble Sort Analysis*********************
 
-//  Min time complexity = O
+//  Min time complexity = O(n)
 //  Max time complexity = O(n^2)
 //  Adaptive
 //  Stable
