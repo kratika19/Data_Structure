@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="G:/Semester4/dsa/Sorting Techniques/InsertionSort.cpp">
+		<Unit filename="G:/Semester4/dsa/Sorting Techniques/SelectionSort.cpp">
 			<Option target="linked_lists"/>
 		</Unit>
 		<Unit filename="G:/Semester4/dsa/linked list/CMakeLists.txt">
