@@ -41,3 +41,17 @@ int main() {
     bubbleSort(A, 9);
     return 0;
 }
+
+
+
+//**************Bubble Sort Analysis*********************
+
+//  Min time complexity = O
+//  Max time complexity = O(n^2)
+//  Adaptive
+//  Stable
+//  Max Swaps for n numbers = n(n-1)/2
+//  Max Comparisons for n numbers = n(n-1)/2
+//  Min Swaps for n numbers = 0
+//  Min Comparisons for n numbers = n - 1
+
