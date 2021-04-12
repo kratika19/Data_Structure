@@ -27,7 +27,7 @@ void bubbleSort(int A[], int n) {
     for (int i = 0; i < n; i++) {
         cout << A[i] << " ";
     }
-    cout<<endl<<endl<<"No of passes = "<<pass<<endl;
+    cout << endl << endl << "No of passes = " << pass << endl;
 }
 
 int main() {
@@ -37,7 +37,7 @@ int main() {
     for (int i = 0; i < 9; i++) {
         cout << A[i] << " ";
     }
-    cout << endl<<endl;
+    cout << endl << endl;
     bubbleSort(A, 9);
     return 0;
 }
