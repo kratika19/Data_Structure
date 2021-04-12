@@ -75,27 +75,27 @@ include CMakeFiles/linked_lists.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/linked_lists.dir/flags.make
 
-CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.obj: CMakeFiles/linked_lists.dir/flags.make
-CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.obj: G:/Semester4/dsa/Sorting\ Techniques/BubbleSort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Semester4\dsa\linked list\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\linked_lists.dir\G_\Semester4\dsa\Sorting_Techniques\BubbleSort.cpp.obj -c "G:\Semester4\dsa\Sorting Techniques\BubbleSort.cpp"
+CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/InsertionSort.cpp.obj: CMakeFiles/linked_lists.dir/flags.make
+CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/InsertionSort.cpp.obj: G:/Semester4/dsa/Sorting\ Techniques/InsertionSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Semester4\dsa\linked list\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/InsertionSort.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\linked_lists.dir\G_\Semester4\dsa\Sorting_Techniques\InsertionSort.cpp.obj -c "G:\Semester4\dsa\Sorting Techniques\InsertionSort.cpp"
 
-CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Semester4\dsa\Sorting Techniques\BubbleSort.cpp" > CMakeFiles\linked_lists.dir\G_\Semester4\dsa\Sorting_Techniques\BubbleSort.cpp.i
+CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/InsertionSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/InsertionSort.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Semester4\dsa\Sorting Techniques\InsertionSort.cpp" > CMakeFiles\linked_lists.dir\G_\Semester4\dsa\Sorting_Techniques\InsertionSort.cpp.i
 
-CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Semester4\dsa\Sorting Techniques\BubbleSort.cpp" -o CMakeFiles\linked_lists.dir\G_\Semester4\dsa\Sorting_Techniques\BubbleSort.cpp.s
+CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/InsertionSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/InsertionSort.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Semester4\dsa\Sorting Techniques\InsertionSort.cpp" -o CMakeFiles\linked_lists.dir\G_\Semester4\dsa\Sorting_Techniques\InsertionSort.cpp.s
 
 # Object files for target linked_lists
 linked_lists_OBJECTS = \
-"CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.obj"
+"CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/InsertionSort.cpp.obj"
 
 # External object files for target linked_lists
 linked_lists_EXTERNAL_OBJECTS =
 
-linked_lists.exe: CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.obj
+linked_lists.exe: CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/InsertionSort.cpp.obj
 linked_lists.exe: CMakeFiles/linked_lists.dir/build.make
 linked_lists.exe: CMakeFiles/linked_lists.dir/linklibs.rsp
 linked_lists.exe: CMakeFiles/linked_lists.dir/objects1.rsp

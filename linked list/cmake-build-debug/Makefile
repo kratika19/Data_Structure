@@ -141,32 +141,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-G_/Semester4/dsa/Sorting_Techniques/BubbleSort.obj: G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.obj
+G_/Semester4/dsa/Sorting_Techniques/InsertionSort.obj: G_/Semester4/dsa/Sorting_Techniques/InsertionSort.cpp.obj
 
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/BubbleSort.obj
+.PHONY : G_/Semester4/dsa/Sorting_Techniques/InsertionSort.obj
 
 # target to build an object file
-G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.obj
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.obj
+G_/Semester4/dsa/Sorting_Techniques/InsertionSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/InsertionSort.cpp.obj
+.PHONY : G_/Semester4/dsa/Sorting_Techniques/InsertionSort.cpp.obj
 
-G_/Semester4/dsa/Sorting_Techniques/BubbleSort.i: G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.i
+G_/Semester4/dsa/Sorting_Techniques/InsertionSort.i: G_/Semester4/dsa/Sorting_Techniques/InsertionSort.cpp.i
 
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/BubbleSort.i
+.PHONY : G_/Semester4/dsa/Sorting_Techniques/InsertionSort.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.i
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.i
+G_/Semester4/dsa/Sorting_Techniques/InsertionSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/InsertionSort.cpp.i
+.PHONY : G_/Semester4/dsa/Sorting_Techniques/InsertionSort.cpp.i
 
-G_/Semester4/dsa/Sorting_Techniques/BubbleSort.s: G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.s
+G_/Semester4/dsa/Sorting_Techniques/InsertionSort.s: G_/Semester4/dsa/Sorting_Techniques/InsertionSort.cpp.s
 
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/BubbleSort.s
+.PHONY : G_/Semester4/dsa/Sorting_Techniques/InsertionSort.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.s
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.s
+G_/Semester4/dsa/Sorting_Techniques/InsertionSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/InsertionSort.cpp.s
+.PHONY : G_/Semester4/dsa/Sorting_Techniques/InsertionSort.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... G_/Semester4/dsa/Sorting_Techniques/BubbleSort.obj
-	@echo ... G_/Semester4/dsa/Sorting_Techniques/BubbleSort.i
-	@echo ... G_/Semester4/dsa/Sorting_Techniques/BubbleSort.s
+	@echo ... G_/Semester4/dsa/Sorting_Techniques/InsertionSort.obj
+	@echo ... G_/Semester4/dsa/Sorting_Techniques/InsertionSort.i
+	@echo ... G_/Semester4/dsa/Sorting_Techniques/InsertionSort.s
 .PHONY : help
 
 
