@@ -71,13 +71,13 @@ int main() {
 
 //**************Selection Sort Analysis*********************
 
-//  Min time complexity = O
+//  Min time complexity = O(n^2)
 //  Max time complexity = O(n^2)
 //  Not Adaptive
-//  Stable
+//  Not Stable
 //  Max Swaps for n numbers = n - 1
 //  Max Comparisons for n numbers = n(n-1)/2
 //  Min Swaps for n numbers = 0
-//  Min Comparisons for n numbers = n - 1 = O(n)
+//  Min Comparisons for n numbers = n(n-1)/2
 
 
