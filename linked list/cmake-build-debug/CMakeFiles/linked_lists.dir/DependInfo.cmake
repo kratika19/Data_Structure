@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "G:/Semester4/dsa/linked list/deleteInDoublyLL.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug/CMakeFiles/linked_lists.dir/deleteInDoublyLL.cpp.obj"
+  "G:/Semester4/dsa/Sorting Techniques/BubbleSort.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug/CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/BubbleSort.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
