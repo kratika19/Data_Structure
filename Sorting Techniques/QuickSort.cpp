@@ -62,14 +62,10 @@ int main() {
 //**************Quick Sort Analysis*********************
 
 //  here selection of element is done and then position is found.
+//  selection exchange sort / partition exchange sort / pivot sort.
 //  Best case (if partition is always in middle) time complexity = O(n.log(n))
 //  Time complexity if list already sorted in ascending or descending manner(worst case) , can be made best case if we take middle
 //  element as pivot = O(n^2)
-//  Not Adaptive
-//  Not Stable
-//  Max Swaps for n numbers = n - 1
-//  Max Comparisons for n numbers = n(n-1)/2
-//  Min Swaps for n numbers = 0
-//  Min Comparisons for n numbers = n(n-1)/2
+
 
 
