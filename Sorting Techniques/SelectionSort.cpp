@@ -71,6 +71,7 @@ int main() {
 
 //**************Selection Sort Analysis*********************
 
+//  here selection of index is done and then element is found.
 //  Min time complexity = O(n^2)
 //  Max time complexity = O(n^2)
 //  Not Adaptive
