@@ -141,32 +141,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-G_/Semester4/dsa/Sorting_Techniques/QuickSort.obj: G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.obj
+G_/Semester4/dsa/Array/merge_Array.obj: G_/Semester4/dsa/Array/merge_Array.cpp.obj
 
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/QuickSort.obj
+.PHONY : G_/Semester4/dsa/Array/merge_Array.obj
 
 # target to build an object file
-G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.obj
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.obj
+G_/Semester4/dsa/Array/merge_Array.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Array/merge_Array.cpp.obj
+.PHONY : G_/Semester4/dsa/Array/merge_Array.cpp.obj
 
-G_/Semester4/dsa/Sorting_Techniques/QuickSort.i: G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.i
+G_/Semester4/dsa/Array/merge_Array.i: G_/Semester4/dsa/Array/merge_Array.cpp.i
 
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/QuickSort.i
+.PHONY : G_/Semester4/dsa/Array/merge_Array.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.i
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.i
+G_/Semester4/dsa/Array/merge_Array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Array/merge_Array.cpp.i
+.PHONY : G_/Semester4/dsa/Array/merge_Array.cpp.i
 
-G_/Semester4/dsa/Sorting_Techniques/QuickSort.s: G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.s
+G_/Semester4/dsa/Array/merge_Array.s: G_/Semester4/dsa/Array/merge_Array.cpp.s
 
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/QuickSort.s
+.PHONY : G_/Semester4/dsa/Array/merge_Array.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.s
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.s
+G_/Semester4/dsa/Array/merge_Array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Array/merge_Array.cpp.s
+.PHONY : G_/Semester4/dsa/Array/merge_Array.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... G_/Semester4/dsa/Sorting_Techniques/QuickSort.obj
-	@echo ... G_/Semester4/dsa/Sorting_Techniques/QuickSort.i
-	@echo ... G_/Semester4/dsa/Sorting_Techniques/QuickSort.s
+	@echo ... G_/Semester4/dsa/Array/merge_Array.obj
+	@echo ... G_/Semester4/dsa/Array/merge_Array.i
+	@echo ... G_/Semester4/dsa/Array/merge_Array.s
 .PHONY : help
 
 
