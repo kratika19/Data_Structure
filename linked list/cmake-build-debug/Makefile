@@ -141,32 +141,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-G_/Semester4/dsa/Array/merge_Array.obj: G_/Semester4/dsa/Array/merge_Array.cpp.obj
+G_/Semester4/dsa/Array/MergeIntoOneArray.obj: G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.obj
 
-.PHONY : G_/Semester4/dsa/Array/merge_Array.obj
+.PHONY : G_/Semester4/dsa/Array/MergeIntoOneArray.obj
 
 # target to build an object file
-G_/Semester4/dsa/Array/merge_Array.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Array/merge_Array.cpp.obj
-.PHONY : G_/Semester4/dsa/Array/merge_Array.cpp.obj
+G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.obj
+.PHONY : G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.obj
 
-G_/Semester4/dsa/Array/merge_Array.i: G_/Semester4/dsa/Array/merge_Array.cpp.i
+G_/Semester4/dsa/Array/MergeIntoOneArray.i: G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.i
 
-.PHONY : G_/Semester4/dsa/Array/merge_Array.i
+.PHONY : G_/Semester4/dsa/Array/MergeIntoOneArray.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Array/merge_Array.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Array/merge_Array.cpp.i
-.PHONY : G_/Semester4/dsa/Array/merge_Array.cpp.i
+G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.i
+.PHONY : G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.i
 
-G_/Semester4/dsa/Array/merge_Array.s: G_/Semester4/dsa/Array/merge_Array.cpp.s
+G_/Semester4/dsa/Array/MergeIntoOneArray.s: G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.s
 
-.PHONY : G_/Semester4/dsa/Array/merge_Array.s
+.PHONY : G_/Semester4/dsa/Array/MergeIntoOneArray.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Array/merge_Array.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Array/merge_Array.cpp.s
-.PHONY : G_/Semester4/dsa/Array/merge_Array.cpp.s
+G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.s
+.PHONY : G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... G_/Semester4/dsa/Array/merge_Array.obj
-	@echo ... G_/Semester4/dsa/Array/merge_Array.i
-	@echo ... G_/Semester4/dsa/Array/merge_Array.s
+	@echo ... G_/Semester4/dsa/Array/MergeIntoOneArray.obj
+	@echo ... G_/Semester4/dsa/Array/MergeIntoOneArray.i
+	@echo ... G_/Semester4/dsa/Array/MergeIntoOneArray.s
 .PHONY : help
 
 
