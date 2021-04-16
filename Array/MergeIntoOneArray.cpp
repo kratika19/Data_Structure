@@ -6,7 +6,7 @@ using namespace std;
 void mergeArray(int A[], int l, int h, int m, int C[]) {
     int i, j, k;
     i = l;
-    j = m;
+    j = m+1;
     k = l;
     while (i <= m && j <= h) {
         if (A[i] < A[j])
@@ -14,9 +14,9 @@ void mergeArray(int A[], int l, int h, int m, int C[]) {
         else
             C[k++] = A[j++];
     }
-    for (; i < m; i++)
+    for (; i <= m; i++)
         C[k++] = A[i++];
-    for (; j < h; j++)
+    for (; j <= h; j++)
         C[k++] = A[j++];
 }
 
@@ -31,7 +31,7 @@ int main() {
     }
     cout << endl;
     int C[m];
-    mergeArray(A, 0, m, m / 2, C);
+    mergeArray(A, 0, m - 1, (m - 1) / 2, C);
     cout << "Elements of new merged array are" << endl;
     for (int i = 0; i < m; ++i) {
         cout << C[i] << " ";

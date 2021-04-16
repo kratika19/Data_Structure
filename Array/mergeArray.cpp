@@ -7,16 +7,17 @@ void merge(int A[], int m, int B[], int n, int *C) {
     int s = m + n;
     int a = 0;
     int b = 0;
-    for (int i = 0; i < s; i++) {
-        if (a <= m && b <= n) {
-            if (A[a] < B[b]) {
-                C[i] = A[a];
-                a++;
-            } else {
-                C[i] = B[b];
-                b++;
-            }
+    int i =0;
+    while(a<=m && b<=n && i<s)
+    {
+        if (A[a] < B[b]) {
+            C[i] = A[a];
+            a++;
+        } else {
+            C[i] = B[b];
+            b++;
         }
+        i++;
     }
 }
 
