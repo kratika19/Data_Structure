@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "G:/Semester4/dsa/Sorting Techniques/iterativeMergeSort.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug/CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.cpp.obj"
+  "G:/Semester4/dsa/Sorting Techniques/Sort.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug/CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/Sort.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
