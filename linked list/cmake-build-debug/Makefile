@@ -141,32 +141,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-G_/Semester4/dsa/Array/MergeIntoOneArray.obj: G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.obj
+G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.obj: G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.cpp.obj
 
-.PHONY : G_/Semester4/dsa/Array/MergeIntoOneArray.obj
+.PHONY : G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.obj
 
 # target to build an object file
-G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.obj
-.PHONY : G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.obj
+G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.cpp.obj
+.PHONY : G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.cpp.obj
 
-G_/Semester4/dsa/Array/MergeIntoOneArray.i: G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.i
+G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.i: G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.cpp.i
 
-.PHONY : G_/Semester4/dsa/Array/MergeIntoOneArray.i
+.PHONY : G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.i
-.PHONY : G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.i
+G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.cpp.i
+.PHONY : G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.cpp.i
 
-G_/Semester4/dsa/Array/MergeIntoOneArray.s: G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.s
+G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.s: G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.cpp.s
 
-.PHONY : G_/Semester4/dsa/Array/MergeIntoOneArray.s
+.PHONY : G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.s
-.PHONY : G_/Semester4/dsa/Array/MergeIntoOneArray.cpp.s
+G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.cpp.s
+.PHONY : G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... G_/Semester4/dsa/Array/MergeIntoOneArray.obj
-	@echo ... G_/Semester4/dsa/Array/MergeIntoOneArray.i
-	@echo ... G_/Semester4/dsa/Array/MergeIntoOneArray.s
+	@echo ... G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.obj
+	@echo ... G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.i
+	@echo ... G_/Semester4/dsa/Sorting_Techniques/iterativeMergeSort.s
 .PHONY : help
 
 
