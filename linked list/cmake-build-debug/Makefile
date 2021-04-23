@@ -141,32 +141,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-G_/Semester4/dsa/Sorting_Techniques/Sort.obj: G_/Semester4/dsa/Sorting_Techniques/Sort.cpp.obj
+G_/Semester4/dsa/Graphs/TransposeAdjacencyList.obj: G_/Semester4/dsa/Graphs/TransposeAdjacencyList.cpp.obj
 
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/Sort.obj
+.PHONY : G_/Semester4/dsa/Graphs/TransposeAdjacencyList.obj
 
 # target to build an object file
-G_/Semester4/dsa/Sorting_Techniques/Sort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/Sort.cpp.obj
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/Sort.cpp.obj
+G_/Semester4/dsa/Graphs/TransposeAdjacencyList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Graphs/TransposeAdjacencyList.cpp.obj
+.PHONY : G_/Semester4/dsa/Graphs/TransposeAdjacencyList.cpp.obj
 
-G_/Semester4/dsa/Sorting_Techniques/Sort.i: G_/Semester4/dsa/Sorting_Techniques/Sort.cpp.i
+G_/Semester4/dsa/Graphs/TransposeAdjacencyList.i: G_/Semester4/dsa/Graphs/TransposeAdjacencyList.cpp.i
 
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/Sort.i
+.PHONY : G_/Semester4/dsa/Graphs/TransposeAdjacencyList.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Sorting_Techniques/Sort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/Sort.cpp.i
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/Sort.cpp.i
+G_/Semester4/dsa/Graphs/TransposeAdjacencyList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Graphs/TransposeAdjacencyList.cpp.i
+.PHONY : G_/Semester4/dsa/Graphs/TransposeAdjacencyList.cpp.i
 
-G_/Semester4/dsa/Sorting_Techniques/Sort.s: G_/Semester4/dsa/Sorting_Techniques/Sort.cpp.s
+G_/Semester4/dsa/Graphs/TransposeAdjacencyList.s: G_/Semester4/dsa/Graphs/TransposeAdjacencyList.cpp.s
 
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/Sort.s
+.PHONY : G_/Semester4/dsa/Graphs/TransposeAdjacencyList.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Sorting_Techniques/Sort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/Sort.cpp.s
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/Sort.cpp.s
+G_/Semester4/dsa/Graphs/TransposeAdjacencyList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Graphs/TransposeAdjacencyList.cpp.s
+.PHONY : G_/Semester4/dsa/Graphs/TransposeAdjacencyList.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... G_/Semester4/dsa/Sorting_Techniques/Sort.obj
-	@echo ... G_/Semester4/dsa/Sorting_Techniques/Sort.i
-	@echo ... G_/Semester4/dsa/Sorting_Techniques/Sort.s
+	@echo ... G_/Semester4/dsa/Graphs/TransposeAdjacencyList.obj
+	@echo ... G_/Semester4/dsa/Graphs/TransposeAdjacencyList.i
+	@echo ... G_/Semester4/dsa/Graphs/TransposeAdjacencyList.s
 .PHONY : help
 
 

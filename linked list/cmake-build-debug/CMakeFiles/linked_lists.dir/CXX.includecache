@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-G:/Semester4/dsa/Sorting Techniques/Sort.cpp
+G:/Semester4/dsa/Graphs/TransposeAdjacencyMatrixx.cpp
 iostream
+-
+bits/stdc++.h
 -
 

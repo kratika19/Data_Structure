@@ -3,4 +3,4 @@ project(linked_lists)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(linked_lists "../Sorting Techniques/Sort.cpp")
+add_executable(linked_lists ../Graphs/TransposeAdjacencyList.cpp)
