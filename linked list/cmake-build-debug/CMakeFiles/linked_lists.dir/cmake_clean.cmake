@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/CircularQueue.cpp.obj"
+  "CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Graphs/BFS.cpp.obj"
   "liblinked_lists.dll.a"
   "linked_lists.exe"
   "linked_lists.exe.manifest"
