@@ -141,32 +141,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-G_/Semester4/dsa/Queue/CircularQueue.obj: G_/Semester4/dsa/Queue/CircularQueue.cpp.obj
+G_/Semester4/dsa/Queue/Queue_ADT_using_LL.obj: G_/Semester4/dsa/Queue/Queue_ADT_using_LL.cpp.obj
 
-.PHONY : G_/Semester4/dsa/Queue/CircularQueue.obj
+.PHONY : G_/Semester4/dsa/Queue/Queue_ADT_using_LL.obj
 
 # target to build an object file
-G_/Semester4/dsa/Queue/CircularQueue.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/CircularQueue.cpp.obj
-.PHONY : G_/Semester4/dsa/Queue/CircularQueue.cpp.obj
+G_/Semester4/dsa/Queue/Queue_ADT_using_LL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/Queue_ADT_using_LL.cpp.obj
+.PHONY : G_/Semester4/dsa/Queue/Queue_ADT_using_LL.cpp.obj
 
-G_/Semester4/dsa/Queue/CircularQueue.i: G_/Semester4/dsa/Queue/CircularQueue.cpp.i
+G_/Semester4/dsa/Queue/Queue_ADT_using_LL.i: G_/Semester4/dsa/Queue/Queue_ADT_using_LL.cpp.i
 
-.PHONY : G_/Semester4/dsa/Queue/CircularQueue.i
+.PHONY : G_/Semester4/dsa/Queue/Queue_ADT_using_LL.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Queue/CircularQueue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/CircularQueue.cpp.i
-.PHONY : G_/Semester4/dsa/Queue/CircularQueue.cpp.i
+G_/Semester4/dsa/Queue/Queue_ADT_using_LL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/Queue_ADT_using_LL.cpp.i
+.PHONY : G_/Semester4/dsa/Queue/Queue_ADT_using_LL.cpp.i
 
-G_/Semester4/dsa/Queue/CircularQueue.s: G_/Semester4/dsa/Queue/CircularQueue.cpp.s
+G_/Semester4/dsa/Queue/Queue_ADT_using_LL.s: G_/Semester4/dsa/Queue/Queue_ADT_using_LL.cpp.s
 
-.PHONY : G_/Semester4/dsa/Queue/CircularQueue.s
+.PHONY : G_/Semester4/dsa/Queue/Queue_ADT_using_LL.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Queue/CircularQueue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/CircularQueue.cpp.s
-.PHONY : G_/Semester4/dsa/Queue/CircularQueue.cpp.s
+G_/Semester4/dsa/Queue/Queue_ADT_using_LL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/Queue_ADT_using_LL.cpp.s
+.PHONY : G_/Semester4/dsa/Queue/Queue_ADT_using_LL.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... G_/Semester4/dsa/Queue/CircularQueue.obj
-	@echo ... G_/Semester4/dsa/Queue/CircularQueue.i
-	@echo ... G_/Semester4/dsa/Queue/CircularQueue.s
+	@echo ... G_/Semester4/dsa/Queue/Queue_ADT_using_LL.obj
+	@echo ... G_/Semester4/dsa/Queue/Queue_ADT_using_LL.i
+	@echo ... G_/Semester4/dsa/Queue/Queue_ADT_using_LL.s
 .PHONY : help
 
 
