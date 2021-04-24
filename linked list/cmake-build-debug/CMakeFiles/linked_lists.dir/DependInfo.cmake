@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "G:/Semester4/dsa/Queue/Queue ADT using Array.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug/CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/Queue_ADT_using_Array.cpp.obj"
+  "G:/Semester4/dsa/Queue/Queue using class.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug/CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/Queue_using_class.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

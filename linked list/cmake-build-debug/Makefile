@@ -141,32 +141,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-G_/Semester4/dsa/Queue/Queue_ADT_using_Array.obj: G_/Semester4/dsa/Queue/Queue_ADT_using_Array.cpp.obj
+G_/Semester4/dsa/Queue/Queue_using_class.obj: G_/Semester4/dsa/Queue/Queue_using_class.cpp.obj
 
-.PHONY : G_/Semester4/dsa/Queue/Queue_ADT_using_Array.obj
+.PHONY : G_/Semester4/dsa/Queue/Queue_using_class.obj
 
 # target to build an object file
-G_/Semester4/dsa/Queue/Queue_ADT_using_Array.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/Queue_ADT_using_Array.cpp.obj
-.PHONY : G_/Semester4/dsa/Queue/Queue_ADT_using_Array.cpp.obj
+G_/Semester4/dsa/Queue/Queue_using_class.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/Queue_using_class.cpp.obj
+.PHONY : G_/Semester4/dsa/Queue/Queue_using_class.cpp.obj
 
-G_/Semester4/dsa/Queue/Queue_ADT_using_Array.i: G_/Semester4/dsa/Queue/Queue_ADT_using_Array.cpp.i
+G_/Semester4/dsa/Queue/Queue_using_class.i: G_/Semester4/dsa/Queue/Queue_using_class.cpp.i
 
-.PHONY : G_/Semester4/dsa/Queue/Queue_ADT_using_Array.i
+.PHONY : G_/Semester4/dsa/Queue/Queue_using_class.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Queue/Queue_ADT_using_Array.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/Queue_ADT_using_Array.cpp.i
-.PHONY : G_/Semester4/dsa/Queue/Queue_ADT_using_Array.cpp.i
+G_/Semester4/dsa/Queue/Queue_using_class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/Queue_using_class.cpp.i
+.PHONY : G_/Semester4/dsa/Queue/Queue_using_class.cpp.i
 
-G_/Semester4/dsa/Queue/Queue_ADT_using_Array.s: G_/Semester4/dsa/Queue/Queue_ADT_using_Array.cpp.s
+G_/Semester4/dsa/Queue/Queue_using_class.s: G_/Semester4/dsa/Queue/Queue_using_class.cpp.s
 
-.PHONY : G_/Semester4/dsa/Queue/Queue_ADT_using_Array.s
+.PHONY : G_/Semester4/dsa/Queue/Queue_using_class.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Queue/Queue_ADT_using_Array.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/Queue_ADT_using_Array.cpp.s
-.PHONY : G_/Semester4/dsa/Queue/Queue_ADT_using_Array.cpp.s
+G_/Semester4/dsa/Queue/Queue_using_class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Queue/Queue_using_class.cpp.s
+.PHONY : G_/Semester4/dsa/Queue/Queue_using_class.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... G_/Semester4/dsa/Queue/Queue_ADT_using_Array.obj
-	@echo ... G_/Semester4/dsa/Queue/Queue_ADT_using_Array.i
-	@echo ... G_/Semester4/dsa/Queue/Queue_ADT_using_Array.s
+	@echo ... G_/Semester4/dsa/Queue/Queue_using_class.obj
+	@echo ... G_/Semester4/dsa/Queue/Queue_using_class.i
+	@echo ... G_/Semester4/dsa/Queue/Queue_using_class.s
 .PHONY : help
 
 
