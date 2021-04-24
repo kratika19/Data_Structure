@@ -141,32 +141,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-G_/Semester4/dsa/Graphs/BFS.obj: G_/Semester4/dsa/Graphs/BFS.cpp.obj
+G_/Semester4/dsa/Graphs/DFS.obj: G_/Semester4/dsa/Graphs/DFS.cpp.obj
 
-.PHONY : G_/Semester4/dsa/Graphs/BFS.obj
+.PHONY : G_/Semester4/dsa/Graphs/DFS.obj
 
 # target to build an object file
-G_/Semester4/dsa/Graphs/BFS.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Graphs/BFS.cpp.obj
-.PHONY : G_/Semester4/dsa/Graphs/BFS.cpp.obj
+G_/Semester4/dsa/Graphs/DFS.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Graphs/DFS.cpp.obj
+.PHONY : G_/Semester4/dsa/Graphs/DFS.cpp.obj
 
-G_/Semester4/dsa/Graphs/BFS.i: G_/Semester4/dsa/Graphs/BFS.cpp.i
+G_/Semester4/dsa/Graphs/DFS.i: G_/Semester4/dsa/Graphs/DFS.cpp.i
 
-.PHONY : G_/Semester4/dsa/Graphs/BFS.i
+.PHONY : G_/Semester4/dsa/Graphs/DFS.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Graphs/BFS.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Graphs/BFS.cpp.i
-.PHONY : G_/Semester4/dsa/Graphs/BFS.cpp.i
+G_/Semester4/dsa/Graphs/DFS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Graphs/DFS.cpp.i
+.PHONY : G_/Semester4/dsa/Graphs/DFS.cpp.i
 
-G_/Semester4/dsa/Graphs/BFS.s: G_/Semester4/dsa/Graphs/BFS.cpp.s
+G_/Semester4/dsa/Graphs/DFS.s: G_/Semester4/dsa/Graphs/DFS.cpp.s
 
-.PHONY : G_/Semester4/dsa/Graphs/BFS.s
+.PHONY : G_/Semester4/dsa/Graphs/DFS.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Graphs/BFS.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Graphs/BFS.cpp.s
-.PHONY : G_/Semester4/dsa/Graphs/BFS.cpp.s
+G_/Semester4/dsa/Graphs/DFS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Graphs/DFS.cpp.s
+.PHONY : G_/Semester4/dsa/Graphs/DFS.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... G_/Semester4/dsa/Graphs/BFS.obj
-	@echo ... G_/Semester4/dsa/Graphs/BFS.i
-	@echo ... G_/Semester4/dsa/Graphs/BFS.s
+	@echo ... G_/Semester4/dsa/Graphs/DFS.obj
+	@echo ... G_/Semester4/dsa/Graphs/DFS.i
+	@echo ... G_/Semester4/dsa/Graphs/DFS.s
 .PHONY : help
 
 
