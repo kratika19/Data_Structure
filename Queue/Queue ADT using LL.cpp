@@ -5,7 +5,7 @@ using namespace std;
 struct Node{
     int data;
     struct Node* next;
-}*first = NULL, *rear = NULL;
+}*front = nullptr, *rear = nullptr;
 
 void Enqueue(int x)
 {
@@ -14,10 +14,10 @@ void Enqueue(int x)
         cout<<"Full";
     else{
         t->data = x;
-        t->next = NULL;
+        t->next = nullptr;
 
-        if(first == NULL)
-            first = rear = t;
+        if(front == nullptr)
+            front = rear = t;
         else
         {
             rear->next = t;
@@ -28,12 +28,12 @@ void Enqueue(int x)
 
 int Dequeue()
 {
-    Node *p = first;
+    Node *p = front;
     int x =-1;
-    if(first == NULL)
+    if(front == nullptr)
         cout<<"Empty";
     else{
-        first = first->next;
+        front = front->next;
         x = p->data;
         delete p;
     }
@@ -42,7 +42,7 @@ int Dequeue()
 
 void printQueue()
 {
-    Node *p = first;
+    Node *p = front;
     while(p)
     {
         cout<<p->data<<" ";
