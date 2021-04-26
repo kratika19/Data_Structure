@@ -141,32 +141,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-G_/Semester4/dsa/Graphs/DFS.obj: G_/Semester4/dsa/Graphs/DFS.cpp.obj
+G_/Semester4/dsa/Trees/Create_Binary_Tre.obj: G_/Semester4/dsa/Trees/Create_Binary_Tre.cpp.obj
 
-.PHONY : G_/Semester4/dsa/Graphs/DFS.obj
+.PHONY : G_/Semester4/dsa/Trees/Create_Binary_Tre.obj
 
 # target to build an object file
-G_/Semester4/dsa/Graphs/DFS.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Graphs/DFS.cpp.obj
-.PHONY : G_/Semester4/dsa/Graphs/DFS.cpp.obj
+G_/Semester4/dsa/Trees/Create_Binary_Tre.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Trees/Create_Binary_Tre.cpp.obj
+.PHONY : G_/Semester4/dsa/Trees/Create_Binary_Tre.cpp.obj
 
-G_/Semester4/dsa/Graphs/DFS.i: G_/Semester4/dsa/Graphs/DFS.cpp.i
+G_/Semester4/dsa/Trees/Create_Binary_Tre.i: G_/Semester4/dsa/Trees/Create_Binary_Tre.cpp.i
 
-.PHONY : G_/Semester4/dsa/Graphs/DFS.i
+.PHONY : G_/Semester4/dsa/Trees/Create_Binary_Tre.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Graphs/DFS.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Graphs/DFS.cpp.i
-.PHONY : G_/Semester4/dsa/Graphs/DFS.cpp.i
+G_/Semester4/dsa/Trees/Create_Binary_Tre.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Trees/Create_Binary_Tre.cpp.i
+.PHONY : G_/Semester4/dsa/Trees/Create_Binary_Tre.cpp.i
 
-G_/Semester4/dsa/Graphs/DFS.s: G_/Semester4/dsa/Graphs/DFS.cpp.s
+G_/Semester4/dsa/Trees/Create_Binary_Tre.s: G_/Semester4/dsa/Trees/Create_Binary_Tre.cpp.s
 
-.PHONY : G_/Semester4/dsa/Graphs/DFS.s
+.PHONY : G_/Semester4/dsa/Trees/Create_Binary_Tre.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Graphs/DFS.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Graphs/DFS.cpp.s
-.PHONY : G_/Semester4/dsa/Graphs/DFS.cpp.s
+G_/Semester4/dsa/Trees/Create_Binary_Tre.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Trees/Create_Binary_Tre.cpp.s
+.PHONY : G_/Semester4/dsa/Trees/Create_Binary_Tre.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... G_/Semester4/dsa/Graphs/DFS.obj
-	@echo ... G_/Semester4/dsa/Graphs/DFS.i
-	@echo ... G_/Semester4/dsa/Graphs/DFS.s
+	@echo ... G_/Semester4/dsa/Trees/Create_Binary_Tre.obj
+	@echo ... G_/Semester4/dsa/Trees/Create_Binary_Tre.i
+	@echo ... G_/Semester4/dsa/Trees/Create_Binary_Tre.s
 .PHONY : help
 
 
