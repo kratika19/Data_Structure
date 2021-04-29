@@ -53,12 +53,38 @@ void preorder(Node *p) {
     }
 }
 
+void inorder(Node *p) {
+    if (p) {
+        inorder(p->lchild);
+        cout << p->data << " -> ";
+        inorder(p->rchild);
+    }
+}
+
+void postorder(Node *p) {
+    if (p) {
+        postorder(p->lchild);
+        postorder(p->rchild);
+        cout << p->data << " -> ";
+    }
+}
+
 int main() {
     cout << "Welcome to binary tree creation" << endl;
     createNode();
 
+    cout<<endl<<endl;
+
     cout<<"Preorder Traversal is : ";
     preorder(root);
-    cout<<"end";
+    cout<<"end"<<endl;
+
+    cout<<"Inorder Traversal is : ";
+    inorder(root);
+    cout<<"end"<<endl;
+
+    cout<<"Postorder Traversal is : ";
+    postorder(root);
+    cout<<"end"<<endl;
     return 0;
 }
