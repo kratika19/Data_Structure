@@ -85,6 +85,9 @@
 		<Unit filename="G:/Semester4/dsa/Trees/Create Binary Tre.cpp">
 			<Option target="linked_lists"/>
 		</Unit>
+		<Unit filename="G:/Semester4/dsa/Trees/Queue.h">
+			<Option target="linked_lists"/>
+		</Unit>
 		<Unit filename="G:/Semester4/dsa/linked list/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

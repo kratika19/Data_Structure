@@ -1,0 +1,110 @@
+        -:    0:Source:G:/Semester4/dsa/leetcode/Day1 ques1.cpp
+        -:    0:Graph:G:\Semester4\dsa\linked list\cmake-build-debug-coverage\CMakeFiles\linked_lists.dir\G_\Semester4\dsa\leetcode\Day1_ques1.cpp.gcno
+        -:    0:Data:G:\Semester4\dsa\linked list\cmake-build-debug-coverage\CMakeFiles\linked_lists.dir\G_\Semester4\dsa\leetcode\Day1_ques1.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:////
+        -:    2://// Created by krati on 26-04-2021.
+        -:    3:////
+        -:    4://Write a function that takes an unsigned integer and returns the number of '1' bits it has (also known as the Hamming weight).
+        -:    5://
+        -:    6://Note:
+        -:    7://
+        -:    8://Note that in some languages, such as Java, there is no unsigned integer type. In this case, the input will be given as a signed integer type. It should not affect your implementation, as the integer's internal binary representation is the same, whether it is signed or unsigned.
+        -:    9://In Java, the compiler represents the signed integers using 2's complement notation. Therefore, in Example 3, the input represents the signed integer. -3.
+        -:   10://
+        -:   11://
+        -:   12://Example 1:
+        -:   13://
+        -:   14://Input: n = 00000000000000000000000000001011
+        -:   15://Output: 3
+        -:   16://Explanation: The input binary string 00000000000000000000000000001011 has a total of three '1' bits.
+        -:   17://Example 2:
+        -:   18://
+        -:   19://Input: n = 00000000000000000000000010000000
+        -:   20://Output: 1
+        -:   21://Explanation: The input binary string 00000000000000000000000010000000 has a total of one '1' bit.
+        -:   22://Example 3:
+        -:   23://
+        -:   24://Input: n = 11111111111111111111111111111101
+        -:   25://Output: 31
+        -:   26://Explanation: The input binary string 11111111111111111111111111111101 has a total of thirty one '1' bits.
+        -:   27://
+        -:   28://
+        -:   29://Constraints:
+        -:   30://
+        -:   31://The input must be a binary string of length 32.
+        -:   32://
+        -:   33://
+        -:   34://Follow up: If this function is called many times, how would you optimize it?
+        -:   35://
+        -:   36:
+        -:   37:#include <iostream>
+        -:   38:using namespace std;
+        -:   39:
+function _Z4Calcj called 1 returned 100% blocks executed 100%
+        1:   40:int Calc(uint32_t a)
+        1:   40-block  0
+        -:   41:{
+        1:   42:    uint32_t n =a;
+        1:   43:    int count = 0;
+        1:   43-block  0
+       33:   44:    while(n!=0)
+       33:   44-block  0
+branch  0 taken 32 (fallthrough)
+branch  1 taken 1
+       32:   44-block  1
+        -:   45:    {
+       32:   46:        count = count + (n%2);
+       32:   47:        n = n /2;
+        -:   48:    }
+        1:   49:    return count;
+        1:   49-block  0
+        -:   50:}
+        -:   51:
+function main called 1 returned 100% blocks executed 100%
+        1:   52:int main()
+        1:   52-block  0
+        -:   53:{
+        1:   54:    cout<<"Enter :";
+        1:   54-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:   55:    uint32_t a;
+        1:   56:    cin>>a;
+        1:   56-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   57:    cout<<a;
+        1:   57-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   58:    cout<<"no = "<<Calc(a);
+        1:   58-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   58-block  1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   59:    return 0;
+        1:   59-block  0
+        1:   59-block  1
+function _GLOBAL__sub_I__Z4Calcj called 1 returned 100% blocks executed 100%
+function _Z41__static_initialization_and_destruction_0ii called 1 returned 100% blocks executed 100%
+        4:   60:}
+        1:   60-block  0
+        1:   60-block  1
+call    0 returned 1
+        1:   60-block  2
+        1:   60-block  3
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0
+        1:   60-block  4
+branch  3 taken 1 (fallthrough)
+branch  4 taken 0
