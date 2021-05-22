@@ -3,4 +3,4 @@ project(linked_lists)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(linked_lists "../Trees/Create Binary Tre.cpp" ../Trees/Queue.h)
+add_executable(linked_lists ../Hackerearth/minAdd.cpp)

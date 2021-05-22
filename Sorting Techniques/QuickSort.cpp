@@ -8,6 +8,7 @@ void swap(int &x, int &y) {
     y = temp;
 }
 
+
 int partition(int A[], int low, int high) {
     int i = low;
     int j = high;
@@ -37,21 +38,21 @@ void quickSort(int A[], int low, int high) {
 }
 
 int main() {
-    int A[] = {91, 22, 89, 11, 12, 65, 41, 30, 2, 75, INT32_MAX};
+//    int A[] = {19, 22, 89, 11, 12, 65, 41, 30, 2, 75, INT32_MAX};
 //    int A[] = {1,2,3,4,5,6,7,8,9};
-//    int A[] = {8, 5, 7, 3, 2};
+    int A[] = {8, 5, 7, 3, 2};
 //    int A[] = {9, 8, 7, 6, 5, 4, 3, 2, 1};
-    int n = 11;
+    int n = 5;
     cout << "Elements before sorting" << endl;
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < n; i++) {
         cout << A[i] << " ";
     }
     cout << endl << endl;
 
-    quickSort(A, 0, 10);
+    quickSort(A, 0, 5);
 
     cout << "Elements after sorting" << endl;
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < n; i++) {
         cout << A[i] << " ";
     }
  return 0;

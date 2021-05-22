@@ -3,6 +3,38 @@
 
 using namespace std;
 
+struct Stack {
+    int size;
+    int top;
+    Node **Ar;
+};
+
+void push(Stack *s, Node* x) {
+    if (s->top == s->size - 1) {
+        return;
+    } else {
+        (s->top)++;
+        s->Ar[s->top] = x;
+    }
+}
+
+int isEmpty(Stack s) {
+    return (s.top == -1);
+}
+
+Node* pop(Stack *s) {
+    Node* x = NULL;
+    if (s->top == -1)
+        x = NULL;
+    else {
+        x = s->Ar[s->top];
+        (s->top)--;
+    }
+    return x;
+}
+
+
+Stack st;
 Node *root = NULL;
 
 void createNode() {
@@ -53,6 +85,26 @@ void preorder(Node *p) {
     }
 }
 
+void iterPreorder(Node* p)
+{
+    st.size = 100;
+    st.Ar = new Node*[st.size];
+
+    while(p!= NULL || !isEmpty(st))
+    {
+        if(p!=NULL)
+        {
+            cout << p->data << " -> ";
+            push(&st, p);
+            p = p->lchild;
+        }
+        else{
+            p = pop(&st);
+            p = p->rchild;
+        }
+    }
+}
+
 void inorder(Node *p) {
     if (p) {
         inorder(p->lchild);
@@ -61,11 +113,51 @@ void inorder(Node *p) {
     }
 }
 
+void iterInorder(Node* p)
+{
+    st.size = 100;
+    st.Ar = new Node*[st.size];
+
+    while(p!= NULL || !isEmpty(st))
+    {
+        if(p!=NULL)
+        {
+            push(&st, p);
+            cout << p->data << " -> ";
+            p = p->lchild;
+        }
+        else{
+            p = pop(&st);
+            p = p->rchild;
+        }
+    }
+}
+
 void postorder(Node *p) {
     if (p) {
         postorder(p->lchild);
         postorder(p->rchild);
         cout << p->data << " -> ";
+    }
+}
+
+void iterPostorder(Node* p)
+{
+    st.size = 100;
+    st.Ar = new Node*[st.size];
+
+    while(p!= NULL || !isEmpty(st))
+    {
+        if(p!=NULL)
+        {
+            push(&st, p);
+            p = p->lchild;
+            cout << p->data << " -> ";
+        }
+        else{
+            p = pop(&st);
+            p = p->rchild;
+        }
     }
 }
 
@@ -86,5 +178,17 @@ int main() {
     cout<<"Postorder Traversal is : ";
     postorder(root);
     cout<<"end"<<endl;
+
+//    cout<<"Preorder Traversal is : ";
+//    iterPreorder(root);
+//    cout<<"end"<<endl;
+
+//    cout<<"Inorder Traversal is : ";
+//    iterInorder(root);
+//    cout<<"end"<<endl;
+//
+//    cout<<"Postorder Traversal is : ";
+//    iterPostorder(root);
+//    cout<<"end"<<endl;
     return 0;
 }
