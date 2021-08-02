@@ -141,32 +141,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-G_/Semester4/dsa/Heap/heapsort.obj: G_/Semester4/dsa/Heap/heapsort.cpp.obj
+G_/Semester4/dsa/Heap/insertheap.obj: G_/Semester4/dsa/Heap/insertheap.cpp.obj
 
-.PHONY : G_/Semester4/dsa/Heap/heapsort.obj
+.PHONY : G_/Semester4/dsa/Heap/insertheap.obj
 
 # target to build an object file
-G_/Semester4/dsa/Heap/heapsort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Heap/heapsort.cpp.obj
-.PHONY : G_/Semester4/dsa/Heap/heapsort.cpp.obj
+G_/Semester4/dsa/Heap/insertheap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Heap/insertheap.cpp.obj
+.PHONY : G_/Semester4/dsa/Heap/insertheap.cpp.obj
 
-G_/Semester4/dsa/Heap/heapsort.i: G_/Semester4/dsa/Heap/heapsort.cpp.i
+G_/Semester4/dsa/Heap/insertheap.i: G_/Semester4/dsa/Heap/insertheap.cpp.i
 
-.PHONY : G_/Semester4/dsa/Heap/heapsort.i
+.PHONY : G_/Semester4/dsa/Heap/insertheap.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Heap/heapsort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Heap/heapsort.cpp.i
-.PHONY : G_/Semester4/dsa/Heap/heapsort.cpp.i
+G_/Semester4/dsa/Heap/insertheap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Heap/insertheap.cpp.i
+.PHONY : G_/Semester4/dsa/Heap/insertheap.cpp.i
 
-G_/Semester4/dsa/Heap/heapsort.s: G_/Semester4/dsa/Heap/heapsort.cpp.s
+G_/Semester4/dsa/Heap/insertheap.s: G_/Semester4/dsa/Heap/insertheap.cpp.s
 
-.PHONY : G_/Semester4/dsa/Heap/heapsort.s
+.PHONY : G_/Semester4/dsa/Heap/insertheap.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Heap/heapsort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Heap/heapsort.cpp.s
-.PHONY : G_/Semester4/dsa/Heap/heapsort.cpp.s
+G_/Semester4/dsa/Heap/insertheap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Heap/insertheap.cpp.s
+.PHONY : G_/Semester4/dsa/Heap/insertheap.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... G_/Semester4/dsa/Heap/heapsort.obj
-	@echo ... G_/Semester4/dsa/Heap/heapsort.i
-	@echo ... G_/Semester4/dsa/Heap/heapsort.s
+	@echo ... G_/Semester4/dsa/Heap/insertheap.obj
+	@echo ... G_/Semester4/dsa/Heap/insertheap.i
+	@echo ... G_/Semester4/dsa/Heap/insertheap.s
 .PHONY : help
 
 
