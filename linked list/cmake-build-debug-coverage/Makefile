@@ -141,32 +141,32 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-G_/Semester4/dsa/Hackerearth/StackOperations.obj: G_/Semester4/dsa/Hackerearth/StackOperations.cpp.obj
+G_/Semester4/dsa/Heap/createheap.obj: G_/Semester4/dsa/Heap/createheap.cpp.obj
 
-.PHONY : G_/Semester4/dsa/Hackerearth/StackOperations.obj
+.PHONY : G_/Semester4/dsa/Heap/createheap.obj
 
 # target to build an object file
-G_/Semester4/dsa/Hackerearth/StackOperations.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Hackerearth/StackOperations.cpp.obj
-.PHONY : G_/Semester4/dsa/Hackerearth/StackOperations.cpp.obj
+G_/Semester4/dsa/Heap/createheap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Heap/createheap.cpp.obj
+.PHONY : G_/Semester4/dsa/Heap/createheap.cpp.obj
 
-G_/Semester4/dsa/Hackerearth/StackOperations.i: G_/Semester4/dsa/Hackerearth/StackOperations.cpp.i
+G_/Semester4/dsa/Heap/createheap.i: G_/Semester4/dsa/Heap/createheap.cpp.i
 
-.PHONY : G_/Semester4/dsa/Hackerearth/StackOperations.i
+.PHONY : G_/Semester4/dsa/Heap/createheap.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Hackerearth/StackOperations.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Hackerearth/StackOperations.cpp.i
-.PHONY : G_/Semester4/dsa/Hackerearth/StackOperations.cpp.i
+G_/Semester4/dsa/Heap/createheap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Heap/createheap.cpp.i
+.PHONY : G_/Semester4/dsa/Heap/createheap.cpp.i
 
-G_/Semester4/dsa/Hackerearth/StackOperations.s: G_/Semester4/dsa/Hackerearth/StackOperations.cpp.s
+G_/Semester4/dsa/Heap/createheap.s: G_/Semester4/dsa/Heap/createheap.cpp.s
 
-.PHONY : G_/Semester4/dsa/Hackerearth/StackOperations.s
+.PHONY : G_/Semester4/dsa/Heap/createheap.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Hackerearth/StackOperations.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Hackerearth/StackOperations.cpp.s
-.PHONY : G_/Semester4/dsa/Hackerearth/StackOperations.cpp.s
+G_/Semester4/dsa/Heap/createheap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Heap/createheap.cpp.s
+.PHONY : G_/Semester4/dsa/Heap/createheap.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... G_/Semester4/dsa/Hackerearth/StackOperations.obj
-	@echo ... G_/Semester4/dsa/Hackerearth/StackOperations.i
-	@echo ... G_/Semester4/dsa/Hackerearth/StackOperations.s
+	@echo ... G_/Semester4/dsa/Heap/createheap.obj
+	@echo ... G_/Semester4/dsa/Heap/createheap.i
+	@echo ... G_/Semester4/dsa/Heap/createheap.s
 .PHONY : help
 
 

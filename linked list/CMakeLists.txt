@@ -3,4 +3,4 @@ project(linked_lists)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(linked_lists ../Hackerearth/StackOperations.cpp)
+add_executable(linked_lists ../Heap/createheap.cpp)
