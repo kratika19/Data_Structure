@@ -1,15 +1,23 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
   "CXX"
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "G:/Semester4/dsa/Heap/insertheap.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug-coverage/CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Heap/insertheap.cpp.obj"
+  "G:/Semester4/dsa/Heap/heapify.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug-coverage/CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Heap/heapify.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
   )
 
 # Targets to which this target links.
