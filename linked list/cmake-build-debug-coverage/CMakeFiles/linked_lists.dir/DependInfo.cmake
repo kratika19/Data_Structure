@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "G:/Semester4/dsa/Heap/heapify.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug-coverage/CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Heap/heapify.cpp.obj"
+  "G:/Semester4/dsa/Codejam/Reverse Sort.cpp" "G:/Semester4/dsa/linked list/cmake-build-debug-coverage/CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

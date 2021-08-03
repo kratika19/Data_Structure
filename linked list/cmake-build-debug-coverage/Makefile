@@ -128,29 +128,29 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-G_/Semester4/dsa/Heap/heapify.obj: G_/Semester4/dsa/Heap/heapify.cpp.obj
-.PHONY : G_/Semester4/dsa/Heap/heapify.obj
+G_/Semester4/dsa/Codejam/Reverse_Sort.obj: G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.obj
+.PHONY : G_/Semester4/dsa/Codejam/Reverse_Sort.obj
 
 # target to build an object file
-G_/Semester4/dsa/Heap/heapify.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Heap/heapify.cpp.obj
-.PHONY : G_/Semester4/dsa/Heap/heapify.cpp.obj
+G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.obj
+.PHONY : G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.obj
 
-G_/Semester4/dsa/Heap/heapify.i: G_/Semester4/dsa/Heap/heapify.cpp.i
-.PHONY : G_/Semester4/dsa/Heap/heapify.i
+G_/Semester4/dsa/Codejam/Reverse_Sort.i: G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.i
+.PHONY : G_/Semester4/dsa/Codejam/Reverse_Sort.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Heap/heapify.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Heap/heapify.cpp.i
-.PHONY : G_/Semester4/dsa/Heap/heapify.cpp.i
+G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.i
+.PHONY : G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.i
 
-G_/Semester4/dsa/Heap/heapify.s: G_/Semester4/dsa/Heap/heapify.cpp.s
-.PHONY : G_/Semester4/dsa/Heap/heapify.s
+G_/Semester4/dsa/Codejam/Reverse_Sort.s: G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.s
+.PHONY : G_/Semester4/dsa/Codejam/Reverse_Sort.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Heap/heapify.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Heap/heapify.cpp.s
-.PHONY : G_/Semester4/dsa/Heap/heapify.cpp.s
+G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.s
+.PHONY : G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... G_/Semester4/dsa/Heap/heapify.obj
-	@echo ... G_/Semester4/dsa/Heap/heapify.i
-	@echo ... G_/Semester4/dsa/Heap/heapify.s
+	@echo ... G_/Semester4/dsa/Codejam/Reverse_Sort.obj
+	@echo ... G_/Semester4/dsa/Codejam/Reverse_Sort.i
+	@echo ... G_/Semester4/dsa/Codejam/Reverse_Sort.s
 .PHONY : help
 
 
