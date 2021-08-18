@@ -128,29 +128,29 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-G_/Semester4/dsa/Codejam/Reverse_Sort.obj: G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.obj
-.PHONY : G_/Semester4/dsa/Codejam/Reverse_Sort.obj
+G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.obj: G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.cpp.obj
+.PHONY : G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.obj
 
 # target to build an object file
-G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.obj
-.PHONY : G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.obj
+G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.cpp.obj
+.PHONY : G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.cpp.obj
 
-G_/Semester4/dsa/Codejam/Reverse_Sort.i: G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.i
-.PHONY : G_/Semester4/dsa/Codejam/Reverse_Sort.i
+G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.i: G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.cpp.i
+.PHONY : G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.i
-.PHONY : G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.i
+G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.cpp.i
+.PHONY : G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.cpp.i
 
-G_/Semester4/dsa/Codejam/Reverse_Sort.s: G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.s
-.PHONY : G_/Semester4/dsa/Codejam/Reverse_Sort.s
+G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.s: G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.cpp.s
+.PHONY : G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.s
-.PHONY : G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.s
+G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.cpp.s
+.PHONY : G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... G_/Semester4/dsa/Codejam/Reverse_Sort.obj
-	@echo ... G_/Semester4/dsa/Codejam/Reverse_Sort.i
-	@echo ... G_/Semester4/dsa/Codejam/Reverse_Sort.s
+	@echo ... G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.obj
+	@echo ... G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.i
+	@echo ... G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.s
 .PHONY : help
 
 

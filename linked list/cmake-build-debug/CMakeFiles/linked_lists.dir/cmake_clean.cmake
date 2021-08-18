@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Codejam/Reverse_Sort.cpp.obj"
+  "CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/recursivemergesort.cpp.obj"
   "liblinked_lists.dll.a"
   "linked_lists.exe"
   "linked_lists.exe.manifest"
