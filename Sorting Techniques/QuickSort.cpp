@@ -38,18 +38,18 @@ void quickSort(int A[], int low, int high) {
 }
 
 int main() {
-//    int A[] = {19, 22, 89, 11, 12, 65, 41, 30, 2, 75, INT32_MAX};
+    int A[] = {19, 22, 89, 11, 12, 65, 41, 30, 2, 75};
 //    int A[] = {1,2,3,4,5,6,7,8,9};
-    int A[] = {8, 5, 7, 3, 2};
+//    int A[] = {8, 5, 7, 3, 2};
 //    int A[] = {9, 8, 7, 6, 5, 4, 3, 2, 1};
-    int n = 5;
+    int n = 10;
     cout << "Elements before sorting" << endl;
     for (int i = 0; i < n; i++) {
         cout << A[i] << " ";
     }
     cout << endl << endl;
 
-    quickSort(A, 0, 5);
+    quickSort(A, 0, 10);
 
     cout << "Elements after sorting" << endl;
     for (int i = 0; i < n; i++) {
