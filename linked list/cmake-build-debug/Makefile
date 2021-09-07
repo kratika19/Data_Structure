@@ -128,29 +128,29 @@ linked_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/build
 .PHONY : linked_lists/fast
 
-G_/Semester4/dsa/Sorting_Techniques/QuickSort.obj: G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.obj
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/QuickSort.obj
+G_/Semester4/dsa/Algorithm/greedy/Knapsack.obj: G_/Semester4/dsa/Algorithm/greedy/Knapsack.cpp.obj
+.PHONY : G_/Semester4/dsa/Algorithm/greedy/Knapsack.obj
 
 # target to build an object file
-G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.obj
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.obj
+G_/Semester4/dsa/Algorithm/greedy/Knapsack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Algorithm/greedy/Knapsack.cpp.obj
+.PHONY : G_/Semester4/dsa/Algorithm/greedy/Knapsack.cpp.obj
 
-G_/Semester4/dsa/Sorting_Techniques/QuickSort.i: G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.i
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/QuickSort.i
+G_/Semester4/dsa/Algorithm/greedy/Knapsack.i: G_/Semester4/dsa/Algorithm/greedy/Knapsack.cpp.i
+.PHONY : G_/Semester4/dsa/Algorithm/greedy/Knapsack.i
 
 # target to preprocess a source file
-G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.i
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.i
+G_/Semester4/dsa/Algorithm/greedy/Knapsack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Algorithm/greedy/Knapsack.cpp.i
+.PHONY : G_/Semester4/dsa/Algorithm/greedy/Knapsack.cpp.i
 
-G_/Semester4/dsa/Sorting_Techniques/QuickSort.s: G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.s
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/QuickSort.s
+G_/Semester4/dsa/Algorithm/greedy/Knapsack.s: G_/Semester4/dsa/Algorithm/greedy/Knapsack.cpp.s
+.PHONY : G_/Semester4/dsa/Algorithm/greedy/Knapsack.s
 
 # target to generate assembly for a file
-G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.s
-.PHONY : G_/Semester4/dsa/Sorting_Techniques/QuickSort.cpp.s
+G_/Semester4/dsa/Algorithm/greedy/Knapsack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_lists.dir\build.make CMakeFiles/linked_lists.dir/G_/Semester4/dsa/Algorithm/greedy/Knapsack.cpp.s
+.PHONY : G_/Semester4/dsa/Algorithm/greedy/Knapsack.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_lists
-	@echo ... G_/Semester4/dsa/Sorting_Techniques/QuickSort.obj
-	@echo ... G_/Semester4/dsa/Sorting_Techniques/QuickSort.i
-	@echo ... G_/Semester4/dsa/Sorting_Techniques/QuickSort.s
+	@echo ... G_/Semester4/dsa/Algorithm/greedy/Knapsack.obj
+	@echo ... G_/Semester4/dsa/Algorithm/greedy/Knapsack.i
+	@echo ... G_/Semester4/dsa/Algorithm/greedy/Knapsack.s
 .PHONY : help
 
 

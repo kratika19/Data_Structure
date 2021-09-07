@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-G:/Semester4/dsa/Sorting Techniques/QuickSort.cpp
-iostream
+G:/Semester4/dsa/Algorithm/greedy/Knapsack.cpp
+bits/stdc++.h
 -
 
